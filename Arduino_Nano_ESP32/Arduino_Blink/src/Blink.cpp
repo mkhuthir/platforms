@@ -1,30 +1,21 @@
-/*
- * Blink
- * Turns on an LED on for one second,
- * then off for one second, repeatedly.
- */
+// (c) Muthanna Alwahash - September 2023
+// LED Blink
 
 #include <Arduino.h>
 
-// Set LED_BUILTIN if it is not defined by Arduino framework
-#ifndef LED_BUILTIN
-    #define LED_BUILTIN 2
+#ifndef LED_PIN
+    #define LED_PIN 13          // Set LED_PIN
 #endif
 
 void setup()
 {
-  // initialize LED digital pin as an output.
-  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(LED_PIN, OUTPUT);     // initialize LED digital pin as an output.
 }
 
 void loop()
 {
-  // turn the LED on (HIGH is the voltage level)
-  digitalWrite(LED_BUILTIN, HIGH);
-  // wait for a second
-  delay(1000);
-  // turn the LED off by making the voltage LOW
-  digitalWrite(LED_BUILTIN, LOW);
-   // wait for a second
-  delay(1000);
+  digitalWrite(LED_PIN, HIGH);  // turn the LED on (HIGH is the voltage level)
+  delay(500);                  // wait for a second
+  digitalWrite(LED_PIN, LOW);   // turn the LED off by making the voltage LOW
+  delay(500);                  // wait for a second
 }
