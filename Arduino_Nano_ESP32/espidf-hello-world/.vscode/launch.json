@@ -12,9 +12,9 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
-            "executable": "/home/mkhuthir/Documents/PlatformIO/Projects/230925-194715-espidf-hello-world/.pio/build/esp32dev/firmware.elf",
-            "projectEnvName": "esp32dev",
-            "toolchainBinDir": "/home/mkhuthir/.platformio/packages/toolchain-xtensa-esp32/bin",
+            "executable": "/home/mkhuthir/Downloads/sensors/Arduino_Nano_ESP32/espidf-hello-world/.pio/build/arduino_nano_esp32/firmware.elf",
+            "projectEnvName": "arduino_nano_esp32",
+            "toolchainBinDir": "/home/mkhuthir/.platformio/packages/toolchain-xtensa-esp32s3/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "preLaunchTask": {
                 "type": "PlatformIO",
@@ -25,18 +25,18 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
-            "executable": "/home/mkhuthir/Documents/PlatformIO/Projects/230925-194715-espidf-hello-world/.pio/build/esp32dev/firmware.elf",
-            "projectEnvName": "esp32dev",
-            "toolchainBinDir": "/home/mkhuthir/.platformio/packages/toolchain-xtensa-esp32/bin",
+            "executable": "/home/mkhuthir/Downloads/sensors/Arduino_Nano_ESP32/espidf-hello-world/.pio/build/arduino_nano_esp32/firmware.elf",
+            "projectEnvName": "arduino_nano_esp32",
+            "toolchainBinDir": "/home/mkhuthir/.platformio/packages/toolchain-xtensa-esp32s3/bin",
             "internalConsoleOptions": "openOnSessionStart"
         },
         {
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (without uploading)",
-            "executable": "/home/mkhuthir/Documents/PlatformIO/Projects/230925-194715-espidf-hello-world/.pio/build/esp32dev/firmware.elf",
-            "projectEnvName": "esp32dev",
-            "toolchainBinDir": "/home/mkhuthir/.platformio/packages/toolchain-xtensa-esp32/bin",
+            "executable": "/home/mkhuthir/Downloads/sensors/Arduino_Nano_ESP32/espidf-hello-world/.pio/build/arduino_nano_esp32/firmware.elf",
+            "projectEnvName": "arduino_nano_esp32",
+            "toolchainBinDir": "/home/mkhuthir/.platformio/packages/toolchain-xtensa-esp32s3/bin",
             "internalConsoleOptions": "openOnSessionStart",
             "loadMode": "manual"
         }
