@@ -1,2 +1,2 @@
-# sensors
-Sensors Testing Code
+# Platforms
+Boards and Sensors Testing Code
