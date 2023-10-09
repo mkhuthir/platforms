@@ -1,8 +1,8 @@
 #include "delay.h"
 
-#define MAIN_Fosc 22118400L   //Define the clock
+//#define MAIN_Fosc 22118400L   //Define the clock
 //#define MAIN_Fosc 12000000L   //Define the clock
-//#define MAIN_Fosc 11059200L   //Define the clock
+#define MAIN_Fosc 11059200L   //Define the clock
 //#define MAIN_Fosc 5529600L    //Define the clock
 //#define MAIN_Fosc 24000000L   //Define the clock
 
