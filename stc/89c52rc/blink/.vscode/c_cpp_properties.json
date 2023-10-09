@@ -8,15 +8,15 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/home/mkhuthir/Downloads/platforms/stc89c52/blink/include",
-                "/home/mkhuthir/Downloads/platforms/stc89c52/blink/src",
+                "/home/mkhuthir/Downloads/platforms/stc/89c52rc/blink/include",
+                "/home/mkhuthir/Downloads/platforms/stc/89c52rc/blink/src",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/home/mkhuthir/Downloads/platforms/stc89c52/blink/include",
-                    "/home/mkhuthir/Downloads/platforms/stc89c52/blink/src",
+                    "/home/mkhuthir/Downloads/platforms/stc/89c52rc/blink/include",
+                    "/home/mkhuthir/Downloads/platforms/stc/89c52rc/blink/src",
                     ""
                 ]
             },

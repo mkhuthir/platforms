@@ -10,9 +10,9 @@ void main()
     while (1)
     {
         ledPin = 0x00;  // LED on
-        delay_ms(1000);
+        delay_ms(100);
         ledPin = 0xff;  // LED off
-        delay_ms(1000);
+        delay_ms(100);
 
     }
 }
