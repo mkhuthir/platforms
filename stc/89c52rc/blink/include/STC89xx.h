@@ -21,7 +21,7 @@
 #define _P4 0xe8
 SFR(P4, 0xe8);
 SBIT(P46, _P4, 6);
-SBIT(P45, _P4, 5);      //ISP下载需勾选"ALE脚用作P4.5口"
+SBIT(P45, _P4, 5);      //ISP To download, you need to check "ALE" pin P4.5"
 SBIT(P44, _P4, 4);
 SBIT(P43, _P4, 3);
 SBIT(P42, _P4, 2);
@@ -71,6 +71,7 @@ SBIT(P04, _P0, 4);
 SBIT(P05, _P0, 5);
 SBIT(P06, _P0, 6);
 SBIT(P07, _P0, 7);
+
 #define _P1 0x90
 SFR(P1, 0x90);
 SBIT(P10, _P1, 0);
@@ -81,6 +82,7 @@ SBIT(P14, _P1, 4);
 SBIT(P15, _P1, 5);
 SBIT(P16, _P1, 6);
 SBIT(P17, _P1, 7);
+
 #define _P2 0xA0
 SFR(P2, 0xA0);
 SBIT(P20, _P2, 0);
@@ -91,6 +93,7 @@ SBIT(P24, _P2, 4);
 SBIT(P25, _P2, 5);
 SBIT(P26, _P2, 6);
 SBIT(P27, _P2, 7);
+
 #define _P3 0xB0
 SFR(P3, 0xB0);
 SBIT(P30, _P3, 0);
@@ -101,6 +104,7 @@ SBIT(P34, _P3, 4);
 SBIT(P35, _P3, 5);
 SBIT(P36, _P3, 6);
 SBIT(P37, _P3, 7);
+
 #define _PSW 0xD0
 SFR(PSW, 0xD0);
 #define _ACC 0xE0
