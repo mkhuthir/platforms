@@ -3,17 +3,27 @@
 #include "STC89xx.h"
 #include "delay.h"
 
-#define ledPin P14      // LED is connected to pin P1.4
 
 void main()
 {
+    
     while (1)
     {
-        ledPin = 0x00;  // LED on
-        delay_ms(5);
+        P0 = 0xFF;  // LEDs On
+        P1 = 0xFF;
+        P2 = 0xFF;
+        P3 = 0xFF;
+        P4 = 0xFF;
 
-        ledPin = 0xff;  // LED off
-        delay_ms(5);
+        delay_ms(100);
+
+        P0 = 0x00;  // LEDs Off
+        P1 = 0x00;
+        P2 = 0x00;
+        P3 = 0x00;
+        P4 = 0x00;
+
+        delay_ms(100);
 
     }
 }
