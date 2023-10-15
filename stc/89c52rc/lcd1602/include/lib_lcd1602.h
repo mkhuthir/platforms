@@ -3,9 +3,9 @@
 #ifndef E51_LIB_LCD1602_H
 #define E51_LIB_LCD1602_H
 
-#define LCD_EN P2_7
-#define LCD_RS P2_6
-#define LCD_WR P2_5
+#define LCD_EN P1_2
+#define LCD_RS P1_0
+#define LCD_WR P1_1
 
 #define LCD_DATA_PORT P0
 
