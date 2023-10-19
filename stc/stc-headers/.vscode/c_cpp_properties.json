@@ -1,0 +1,41 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/mkhuthir/Downloads/fpga/icestick/231019-212428-stc-header/include",
+                "/home/mkhuthir/Downloads/fpga/icestick/231019-212428-stc-header/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/mkhuthir/Downloads/fpga/icestick/231019-212428-stc-header/include",
+                    "/home/mkhuthir/Downloads/fpga/icestick/231019-212428-stc-header/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=11059200L",
+                "HEAP_SIZE=64",
+                "PLATFORMIO=60111",
+                "STC15F20XA",
+                "STC15F204EA",
+                "NAKED_ARCH_MCS51",
+                "NAKED_MCS51_STC15F20XA",
+                ""
+            ],
+            "compilerPath": "/home/mkhuthir/.platformio/packages/toolchain-sdcc/bin/sdcc",
+            "compilerArgs": [
+                "-mmcs51",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}
