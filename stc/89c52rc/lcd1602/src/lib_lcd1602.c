@@ -116,7 +116,12 @@ void lcd_show_dec_num(unsigned int line, unsigned int column, int num, unsigned 
     }
 }
 
-void lcd_show_hex_num(unsigned int line, unsigned int column, unsigned char hex_num, unsigned int length)
+void lcd_show_hex_num   (
+                        unsigned int line, 
+                        unsigned int column,
+                        unsigned char hex_num,
+                        unsigned int length
+                        )
 {
     lcd_set_ac(line, column);
     unsigned int i, single_num;
@@ -131,7 +136,12 @@ void lcd_show_hex_num(unsigned int line, unsigned int column, unsigned char hex_
     }
 }
 
-void lcd_show_bin_num(unsigned int line, unsigned int column, unsigned int bin_num, unsigned int length)
+void lcd_show_bin_num   (
+                        unsigned int line, 
+                        unsigned int column, 
+                        unsigned int bin_num, 
+                        unsigned int length
+                        )
 {
     lcd_set_ac(line, column);
     unsigned int i;
