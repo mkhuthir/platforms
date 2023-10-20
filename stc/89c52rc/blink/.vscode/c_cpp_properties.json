@@ -10,6 +10,7 @@
             "includePath": [
                 "/home/mkhuthir/Downloads/platforms/stc/89c52rc/blink/include",
                 "/home/mkhuthir/Downloads/platforms/stc/89c52rc/blink/src",
+                "/home/mkhuthir/Downloads/platforms/stc/89c52rc/blink/lib/delay",
                 ""
             ],
             "browse": {
@@ -17,6 +18,7 @@
                 "path": [
                     "/home/mkhuthir/Downloads/platforms/stc/89c52rc/blink/include",
                     "/home/mkhuthir/Downloads/platforms/stc/89c52rc/blink/src",
+                    "/home/mkhuthir/Downloads/platforms/stc/89c52rc/blink/lib/delay",
                     ""
                 ]
             },
