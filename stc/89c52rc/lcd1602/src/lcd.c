@@ -1,4 +1,4 @@
-#include <8052.h>
+#include "STC89xx.h"     // Official header from STC-ISP for STC89xx / STC90xx
 #include "lib_lcd1602.h"
 
 void main()
