@@ -10,8 +10,8 @@ void main()
 
     lcd_show_char       (1, 1 ,'M');
     lcd_show_string     (1, 3 ,"Hello World!");
-    lcd_show_int_num    (2, 1 ,35    ,3);
-    lcd_show_dec_num    (2, 4 ,-78   ,3);
+    lcd_show_int_num    (2, 1 ,35    ,2);
+    lcd_show_dec_num    (2, 4 ,-78   ,2);
     lcd_show_hex_num    (2, 8 ,0xA4  ,2);
     lcd_show_bin_num    (2, 13,0b0101,4);
 
