@@ -1,12 +1,16 @@
+// Muthanna Alwahash
+// Oct 2023
+
 //E51_LIB_LCD1602_H
 
 #ifndef E51_LIB_LCD1602_H
     #define E51_LIB_LCD1602_H
 
-    #define LCD_EN          P1_0
-    #define LCD_WR          P1_1
-    #define LCD_RS          P1_2
-    #define LCD_DATA_PORT   P0
+    // Used Pins to connect LCD1602 Display
+    #define LCD_EN          P1_0    // Enable
+    #define LCD_WR          P1_1    // Write
+    #define LCD_RS          P1_2    // Read Select
+    #define LCD_DATA_PORT   P0      // 8-Bits Data bus
 
     void lcd_write_command  (unsigned char command);
     void lcd_write_data     (unsigned char data);

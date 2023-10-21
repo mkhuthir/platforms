@@ -8,17 +8,19 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/home/mkhuthir/Downloads/platforms/stc/89c52rc/lcd1602/include",
-                "/home/mkhuthir/Downloads/platforms/stc/89c52rc/lcd1602/src",
-                "/home/mkhuthir/Downloads/platforms/stc/89c52rc/lcd1602/lib/lcd1602",
+                "/home/mkhuthir/Downloads/platforms/stc/89c52rc_devboard/lcd1602/include",
+                "/home/mkhuthir/Downloads/platforms/stc/89c52rc_devboard/lcd1602/src",
+                "/home/mkhuthir/Downloads/platforms/stc/89c52rc_devboard/lcd1602/lib/lcd1602",
+                "/home/mkhuthir/Downloads/platforms/stc/89c52rc_devboard/lcd1602/lib/delay",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/home/mkhuthir/Downloads/platforms/stc/89c52rc/lcd1602/include",
-                    "/home/mkhuthir/Downloads/platforms/stc/89c52rc/lcd1602/src",
-                    "/home/mkhuthir/Downloads/platforms/stc/89c52rc/lcd1602/lib/lcd1602",
+                    "/home/mkhuthir/Downloads/platforms/stc/89c52rc_devboard/lcd1602/include",
+                    "/home/mkhuthir/Downloads/platforms/stc/89c52rc_devboard/lcd1602/src",
+                    "/home/mkhuthir/Downloads/platforms/stc/89c52rc_devboard/lcd1602/lib/lcd1602",
+                    "/home/mkhuthir/Downloads/platforms/stc/89c52rc_devboard/lcd1602/lib/delay",
                     ""
                 ]
             },

@@ -1,19 +1,11 @@
+// Muthanna Alwahash
+// Oct 2023
+
 #include <8052.h>
 #include "lib_lcd1602.h"
+#include "lib_delay.h"
 
-// 12MHz晶振下 1ms延时
-void lcd_delay(void)
-{
-    unsigned char i, j;
-
-    i = 2;
-    j = 239;
-    do {
-        while (--j);
-    } while (--i);
-}
-
-// 某个数的次方计算
+// Calculation of the power of a certain number
 unsigned int lcd_pow(unsigned int num, unsigned int pow)
 {
     unsigned int i;
@@ -33,9 +25,9 @@ void lcd_write_command(unsigned char command)
 
     LCD_DATA_PORT = command;
     LCD_EN = 1;
-    lcd_delay();
+    delay_ms(1);
     LCD_EN = 0;
-    lcd_delay();
+    delay_ms(1);
 }
 
 void lcd_write_data(unsigned char data)
@@ -45,21 +37,17 @@ void lcd_write_data(unsigned char data)
 
     LCD_DATA_PORT = data;
     LCD_EN = 1;
-    lcd_delay();
+    delay_ms(1);
     LCD_EN = 0;
-    lcd_delay();
+    delay_ms(1);
 }
 
 void lcd_1602_init(void)
 {
-    // AC++,画面不动
-    lcd_write_command(0x06);
-    // 显示开,光标关,闪烁关
-    lcd_write_command(0x0C);
-    // 八位数据接口,两行显示,5x7点阵
-    lcd_write_command(0x38);
-    // 清屏
-    lcd_write_command(0x01);
+    lcd_write_command(0x06);    // AC++, the screen does not move
+    lcd_write_command(0x0C);    // Display on, cursor off, flashing off
+    lcd_write_command(0x38);    // Eight-bit data interface, two-line display, 5x7 dot matrix
+    lcd_write_command(0x01);    // clear screen
 }
 
 void lcd_set_ac(unsigned int line, unsigned int column)

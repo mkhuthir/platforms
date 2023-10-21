@@ -2,7 +2,7 @@
 // Oct 2023
 
 #include "STC89xx.h"
-#include "delay.h"
+#include "lib_delay.h"
 
 void main()
 {
