@@ -1,5 +1,11 @@
+CC 			= sdcc
+FLAGS 		=
+SOURCEDIR 	= src/
+BUILDDIR	= build/
+
 all:
-	sdcc *.c
+	mkdir -p $(BUILDDIR)
+	$(CC) $(SOURCEDIR)*.c $(FLAGS) -o $(BUILDDIR)
 
 clean:
-	rm -f *.hex *.ihx *.lnk *.lst *.map *.rel *.rst *.sym *.asm *.lk *.mem
+	rm  $(BUILDDIR) -rf
