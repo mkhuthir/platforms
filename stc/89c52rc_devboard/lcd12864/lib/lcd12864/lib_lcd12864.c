@@ -1,10 +1,8 @@
 // Muthanna Alwahash
 // Oct 2023
 
-#include <reg52.h>
-#include <string.h>
-#include <intrins.h>
-#include "lcd12864.h"
+#include "STC89xx.h"        // Official header from STC-ISP for STC89xx / STC90xx
+#include "lib_lcd12864.h"
 
 void delay(){
 	_nop_();

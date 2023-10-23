@@ -2,9 +2,8 @@
 // Oct 2023
 
 //E51_LIB_LCD1602_H
-
 #ifndef E51_LIB_LCD1602_H
-    #define E51_LIB_LCD1602_H
+#define E51_LIB_LCD1602_H
 
     // Used Pins to connect LCD1602 Display
     #define LCD_EN          P1_0    // Enable
@@ -24,4 +23,5 @@
     void lcd_show_hex_num   (unsigned int line, unsigned int column, unsigned char hex_num, unsigned int length);
     void lcd_show_bin_num   (unsigned int line, unsigned int column, unsigned int bin_num, unsigned int length);
 
-#endif //E51_LIB_LCD1602_H
+#endif
+//E51_LIB_LCD1602_H
