@@ -28,7 +28,7 @@ void check_busy(){
 	EN=0;
 	while(1){
 		EN=1;
-		if(!(lcddata&0x80)){
+		if(!(LCD_DATA_PORT&0x80)){
 			break;
 		}
 		EN=0;
@@ -44,7 +44,7 @@ void lcd_write_command(unsigned char command){
 	RS=0;
 	RW=0;
 	EN=0;
-	lcddata=command;
+	LCD_DATA_PORT=command;
 	EN=1;
 	delay();
 	EN=0;
@@ -55,7 +55,7 @@ void lcd_write_data(unsigned char rdata){
 	RS=1;
 	RW=0;
 	EN=0;
-	lcddata=rdata;
+	LCD_DATA_PORT=rdata;
 	EN=1;
 	delay();
 	EN=0;
@@ -85,16 +85,16 @@ unsigned char lcd_read_data(){
 	check_busy();
 	RS=1;
 	RW=1;
-	lcddata=0xFF;
+	LCD_DATA_PORT=0xFF;
 	EN=1;
-	rdata=lcddata;
+	rdata=LCD_DATA_PORT;
 	EN=0;
 	check_busy();
 	RS=1;
 	RW=1;
-	lcddata=0xFF;
+	LCD_DATA_PORT=0xFF;
 	EN=1;
-	rdata=lcddata;
+	rdata=LCD_DATA_PORT;
 	EN=0;
 	return rdata;
 }
