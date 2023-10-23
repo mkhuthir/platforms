@@ -8,17 +8,17 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/home/mkhuthir/Downloads/platforms/stc/89c52rc_devboard/lcd12864/include",
-                "/home/mkhuthir/Downloads/platforms/stc/89c52rc_devboard/lcd12864/src",
-                "/home/mkhuthir/Downloads/platforms/stc/89c52rc_devboard/lcd12864/lib/delay",
+                "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/include",
+                "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/src",
+                "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/lib/delay",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/home/mkhuthir/Downloads/platforms/stc/89c52rc_devboard/lcd12864/include",
-                    "/home/mkhuthir/Downloads/platforms/stc/89c52rc_devboard/lcd12864/src",
-                    "/home/mkhuthir/Downloads/platforms/stc/89c52rc_devboard/lcd12864/lib/delay",
+                    "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/include",
+                    "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/src",
+                    "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/lib/delay",
                     ""
                 ]
             },
