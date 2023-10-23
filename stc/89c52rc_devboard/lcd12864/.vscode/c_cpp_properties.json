@@ -11,6 +11,7 @@
                 "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/include",
                 "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/src",
                 "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/lib/delay",
+                "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/lib/lcd12864",
                 ""
             ],
             "browse": {
@@ -19,6 +20,7 @@
                     "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/include",
                     "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/src",
                     "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/lib/delay",
+                    "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/lib/lcd12864",
                     ""
                 ]
             },
