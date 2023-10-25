@@ -13,7 +13,7 @@
 #include <util/delay.h>
 
 // LED is on pin 2, PB3
-#define LED      PB3
+#define LED      PB5
 #define DELAY_MS 500
 
 int main () {
