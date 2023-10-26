@@ -6,14 +6,7 @@
  - avr-gcc
  - avr-libc
  - avrdude
- - ATMEL USB ISP (USBASP) programmer
-
-Recommended to use the udev rule:
-
-```bash
-$ cp 98-usbasp.rules /etc/udev/rules.d/
-$ udevadm control --reload-rules
-```
+ - ISP programmer
 
 ## Usage
 
@@ -21,6 +14,7 @@ Connect the following pins:
 
  - Vcc
  - Ground
+   
  - PB0 -- MOSI
  - PB1 -- MISO
  - PB2 -- SCK
@@ -31,7 +25,3 @@ Then, run:
 ```bash
 $ make
 ``` 
-## Credits
-
-Based on work done by https://github.com/casebeer/attiny85-hello-world
-
