@@ -8,15 +8,15 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/home/mkhuthir/ws/platforms/atmel_avr/attiny85/blink/include",
-                "/home/mkhuthir/ws/platforms/atmel_avr/attiny85/blink/src",
+                "/home/mkhuthir/ws/platforms/AVR/attiny85/blink/include",
+                "/home/mkhuthir/ws/platforms/AVR/attiny85/blink/src",
                 ""
             ],
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/home/mkhuthir/ws/platforms/atmel_avr/attiny85/blink/include",
-                    "/home/mkhuthir/ws/platforms/atmel_avr/attiny85/blink/src",
+                    "/home/mkhuthir/ws/platforms/AVR/attiny85/blink/include",
+                    "/home/mkhuthir/ws/platforms/AVR/attiny85/blink/src",
                     ""
                 ]
             },
