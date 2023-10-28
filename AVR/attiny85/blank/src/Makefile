@@ -1,7 +1,7 @@
 # Muthanna Alwahash
 # Oct 2023
 
-fname = blink
+fname = blank
 
 # compile for attiny86 with warnings, optimizations, and 1 MHz clock frequency
 $(fname).hex: $(fname).c
