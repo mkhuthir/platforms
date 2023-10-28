@@ -4,6 +4,7 @@
 fname = blink
 
 # compile for attiny85 with warnings, optimizations, and 8 MHz clock frequency
+# make sure to set fuses to 8MHz if not done. use "make fuse8MHz".
 $(fname).hex: $(fname).c
 	avr-gcc -Wall -Os -DF_CPU=8000000 -mmcu=attiny85 -o $(fname).o $(fname).c
 	avr-objcopy -j .text -j .data -O ihex $(fname).o $(fname).hex
