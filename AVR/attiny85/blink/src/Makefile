@@ -3,7 +3,7 @@
 
 fname = blink
 
-# compile for attiny86 with warnings, optimizations, and 1 MHz clock frequency
+# compile for attiny85 with warnings, optimizations, and 1 MHz clock frequency
 $(fname).hex: $(fname).c
 	avr-gcc -Wall -Os -DF_CPU=1000000 -mmcu=attiny85 -o $(fname).o $(fname).c
 	avr-objcopy -j .text -j .data -O ihex $(fname).o $(fname).hex
