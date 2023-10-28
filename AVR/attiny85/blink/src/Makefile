@@ -9,5 +9,6 @@ default: $(fname).c
 	avr-objcopy -j .text -j .data -O ihex $(fname).o $(fname).hex
 	avrdude -c stk500v2 -P usb -p t85 -U flash:w:$(fname).hex:i
 
+# clean compilation files
 clean: /dev/null
 	rm -f $(fname).o $(fname).hex
