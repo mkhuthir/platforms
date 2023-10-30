@@ -1,7 +1,6 @@
 #include <xc.h>
 #include "adc.h"
 
-
 void ADC_Initialize(void)
 {
     ADCON            = 0x89;// ADON enabled; CHS AN2;
@@ -10,23 +9,15 @@ void ADC_Initialize(void)
 
 }
 
-
 adc_result_t ADC_GetConversion(adc_channel_t channel)
 {
-    // Select the A/D channel
-    ADCONbits.CHS = channel;
+    ADCONbits.CHS = channel;    // Select the A/D channel
+    ADCONbits.ADON = 1;         // Turn on the ADC module
+    ADCONbits.GO_nDONE = 1;     // Start the conversion
 
-    // Turn on the ADC module
-    ADCONbits.ADON = 1;
+    while (ADCONbits.GO_nDONE); // Wait for the conversion to finish
 
-    // Start the conversion
-    ADCONbits.GO_nDONE = 1;
-
-    // Wait for the conversion to finish
-    while (ADCONbits.GO_nDONE);
-
-    // Conversion finished, return the result
-    return ADRES;
+    return ADRES;               // Conversion finished, return the result
 }
 
 
