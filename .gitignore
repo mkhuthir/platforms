@@ -30,3 +30,5 @@
 *.exe
 *.out
 *.app
+/PIC/PIC10F322/LED_PWM/build/
+/PIC/PIC10F322/LED_PWM/dist/
