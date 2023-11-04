@@ -32,3 +32,5 @@
 *.app
 /PIC/PIC10F322/LED_PWM/build/
 /PIC/PIC10F322/LED_PWM/dist/
+/AVR/ATtiny104/Serial/dist/
+/AVR/ATtiny104/Serial/build/
