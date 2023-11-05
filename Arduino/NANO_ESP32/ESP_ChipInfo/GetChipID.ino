@@ -8,9 +8,9 @@ void setup() {
 void loop() {
 
 	Serial.printf("Chip model \t= %s\n", ESP.getChipModel());
-  Serial.printf("Revision \t= %d\n"  , ESP.getChipRevision());
+	Serial.printf("Revision \t= %d\n"  , ESP.getChipRevision());
 	Serial.printf("No of cores \t= %d\n",ESP.getChipCores());
-  
+
 	delay(3000);
 
 }
