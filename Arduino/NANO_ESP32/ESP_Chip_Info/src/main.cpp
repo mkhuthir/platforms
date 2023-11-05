@@ -1,6 +1,8 @@
 // Muthanna Alwahash
 // Nov 2023
 
+#include <Arduino.h>
+
 void setup() {
 	Serial.begin(115200);
 }
