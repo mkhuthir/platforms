@@ -1,4 +1,5 @@
-// (c) Muthanna Alwahash - September 2023
+// Muthanna Alwahash
+// Nov 2023
 // LED Blink
 
 #include <Arduino.h>
