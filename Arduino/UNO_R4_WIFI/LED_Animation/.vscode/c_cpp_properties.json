@@ -8,8 +8,8 @@
         {
             "name": "PlatformIO",
             "includePath": [
-                "/home/mkhuthir/ws/platforms/Arduino/UNO_R4_WiFi/LED_Animation/include",
-                "/home/mkhuthir/ws/platforms/Arduino/UNO_R4_WiFi/LED_Animation/src",
+                "/home/mkhuthir/ws/platforms/Arduino/UNO_R4_WIFI/LED_Animation/include",
+                "/home/mkhuthir/ws/platforms/Arduino/UNO_R4_WIFI/LED_Animation/src",
                 "/home/mkhuthir/.platformio/packages/framework-arduinorenesas-uno/libraries/Arduino_LED_Matrix/src",
                 "/home/mkhuthir/.platformio/packages/framework-arduinorenesas-uno/cores/arduino/tinyusb",
                 "/home/mkhuthir/.platformio/packages/framework-arduinorenesas-uno/cores/arduino",
@@ -38,8 +38,8 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
-                    "/home/mkhuthir/ws/platforms/Arduino/UNO_R4_WiFi/LED_Animation/include",
-                    "/home/mkhuthir/ws/platforms/Arduino/UNO_R4_WiFi/LED_Animation/src",
+                    "/home/mkhuthir/ws/platforms/Arduino/UNO_R4_WIFI/LED_Animation/include",
+                    "/home/mkhuthir/ws/platforms/Arduino/UNO_R4_WIFI/LED_Animation/src",
                     "/home/mkhuthir/.platformio/packages/framework-arduinorenesas-uno/libraries/Arduino_LED_Matrix/src",
                     "/home/mkhuthir/.platformio/packages/framework-arduinorenesas-uno/cores/arduino/tinyusb",
                     "/home/mkhuthir/.platformio/packages/framework-arduinorenesas-uno/cores/arduino",
