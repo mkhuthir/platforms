@@ -16,7 +16,7 @@ int main()
 {
     lcd.cls();
 
-    // default font
+    // default font included in C12832.h
     lcd.printf("Small_7  ");
     
     lcd.set_font((unsigned char*) Arial_9);
