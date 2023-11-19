@@ -16,6 +16,7 @@
 // 25.10.12    add autorefresh of screen
 // 25.10.12    add standart font
 // 20.12.12    add bitmap graphics
+// 19.11.23    replaced wait_ms() with thread_sleep_for()
 
 // optional defines :
 // #define debug_lcd  1
