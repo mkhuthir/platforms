@@ -92,7 +92,7 @@ public:
     * Because the MMA7660 lacks a WHO_AM_I register, this function can only check
     * if there is an I2C device that responds to the MMA7660 address
     *
-    * @param return - true for successfull connection, false for no connection
+    * @param return - true for successful connection, false for no connection
     */
     bool testConnection( void );
 

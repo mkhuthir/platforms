@@ -36,7 +36,7 @@ void MMA7660::readData(int *data)
     bool active_old = active;
     if (!active) {
         setActive(true);
-        wait(0.012 + 1/samplerate); //Wait until new sample is ready, my experience is that 1/samplerate isnt needed, but datasheet says so
+         thread_sleep_for(0.012 + 1/samplerate); //Wait until new sample is ready, my experience is that 1/samplerate isnt needed, but datasheet says so
     }
 
     char temp[3];
@@ -172,7 +172,7 @@ float MMA7660::getSingle( int number )
     bool active_old = active;
     if (!active) {
         setActive(true);
-        wait(0.012 + 1/samplerate); //Wait until new sample is ready
+         thread_sleep_for(0.012 + 1/samplerate); //Wait until new sample is ready
     }
 
     signed char temp;
