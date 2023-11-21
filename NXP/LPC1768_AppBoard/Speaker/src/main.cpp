@@ -3,7 +3,7 @@
 
 #include "mbed.h"
 
-#define delay_ms 10
+#define delay_ms 100
 
 DigitalIn   fire(p14);  // Joystick switch pin
 PwmOut      spkr(p26);  // Speaker pin

@@ -2,18 +2,24 @@
 // Nov 2023
 
 #include "mbed.h"
-#include "C12832.h"
+#include "LM75B.h"
 
-#include "Arial_9.h"
-
-
-C12832 lcd(p5, p7, p6, p8, p11);        // initialize LCD
-
+LM75B sensor(p28, p27);             //Create an LM75B object at the default address (ADDRESS_0)
 
 int main()
 {
-    lcd.cls();
-    lcd.set_font((unsigned char*) Arial_9);
-    lcd.printf("Temperature: ");
+    //Try to open the LM75B
+    if (sensor.open()) {
+        printf("Device detected!\n");
 
+        while (1) {
+        
+            printf("Temp = %.3f\n", (float)sensor);     //Print the current temperature
+            thread_sleep_for(500);                      //Sleep for 0.5 seconds
+        }
+    } else {
+        error("Device not detected!\n");
+    }
 }
+
+
