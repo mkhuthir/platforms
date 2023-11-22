@@ -13,7 +13,7 @@ int main()
 
         while (1) {
         
-            printf("Temp = %d\n", (int)(sensor.temp()*100));    //Print the current temperature
+            printf("Temp = %f\n", (float)sensor.temp());    //Print the current temperature
             thread_sleep_for(500);                              //Sleep for 0.5 seconds
         }
     } else {
