@@ -2,20 +2,18 @@
 // Nov 2023
 
 #include "mbed.h"
+#include "Servo.h"
 
-BusIn joy(p15,p12,p13,p16);         // Joystick direction pins
-DigitalIn fire(p14);                // Joystick switch
+Servo s1(p21);
+Servo s2(p22);
 
-BusOut leds(LED1,LED2,LED3,LED4);   // LEDs
+AnalogIn p1(p19);
+AnalogIn p2(p20);
 
-int main()
-{
+int main() {
     while(1) {
-        if (fire) {
-            leds=0xf;               // Turn on all LEDs
-        } else {
-            leds=joy;               // Turn on one LED based on direction
-        }
-        
+        s1=p1;
+        s2=p2;        
+        thread_sleep_for(100);
     }
 }
