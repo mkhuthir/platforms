@@ -38,7 +38,7 @@
  *
  *         while (1) {
  *             //Print the current temperature
- *             printf("Temp = %.3f\n", (float)sensor);
+ *             printf("Temp = %.3f\n", (float)sensor.temp());
  *
  *             //Sleep for 0.5 seconds
  *             wait(0.5);
