@@ -1,10 +1,17 @@
-CC 			= pio run
+# Muthanna Alwahash
+# November 2023
+
+
+CC 			= pio
 
 build:
-	$(CC)
+	$(CC) run
 
 clean:
-	$(CC) --target clean
+	$(CC) run --target clean
 
 upload:
-	$(CC) --target upload
+	$(CC) run --target upload
+
+list:
+	$(CC) device list
