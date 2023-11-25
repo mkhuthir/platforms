@@ -21,11 +21,11 @@ int main()
         connectionLed = 1;                  // Init OK
 
     while(1) {                              //read X,Y +/-Gs and scale for #display pixels
-        x = (x + MMA.x() * 32.0)/2.0;
-        y = (y -(MMA.y() * 16.0))/2.0;
+        x = (x +MMA.x() * 32.0)/2.0;
+        y = (y -MMA.y() * 16.0)/2.0;
         lcd.fillcircle(x+63, y+15, 3, 1);   //draw bubble
         lcd.circle(63, 15, 8, 1);
-        ThisThread::sleep_for(1ms);         //time delay
+        ThisThread::sleep_for(5ms);         //time delay
         lcd.fillcircle(x+63, y+15, 3, 0);   //erase bubble
     }
 
