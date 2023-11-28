@@ -54,6 +54,6 @@ void loop() {
     }
   }
 
-  digitalWrite(LED_BUILTIN, ledState);// set the LED:
+  digitalWrite(LED_BUILTIN, ledState);// set the LED new state:
   lastBtnState = reading;             // save the reading. Next time through the loop, it'll be the lastButtonState:
 }
