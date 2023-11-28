@@ -28,7 +28,7 @@ int btnState;                         // the current reading from the input pin
 int lastBtnState = LOW;               // the previous reading from the input pin
 
 unsigned long lastDebounceTime = 0;   // the last time the output pin was toggled
-unsigned long debounceDelay = 50;     // the debounce time; increase if the output flickers
+unsigned long debounceDelay = 50;     // the debounce time in ms; increase if the output flickers
 
 void setup() {
   pinMode(USER_BTN, INPUT_PULLUP);    // pull_up is required to keep the switch pin up when switch is not pressed.
