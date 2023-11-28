@@ -4,11 +4,6 @@
 
 #include <Arduino.h>
 
-#ifdef LED_BUILTIN
-  #undef  LED_BUILTIN
-#endif
-#define LED_BUILTIN PC13
-
 void setup()
 {
   // initialize LED digital pin as an output.
