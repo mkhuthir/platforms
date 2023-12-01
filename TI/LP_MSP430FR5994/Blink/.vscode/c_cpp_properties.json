@@ -1,0 +1,38 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/mkhuthir/ws/TI/LP_MSP430FR5994/Blink/include",
+                "/home/mkhuthir/ws/TI/LP_MSP430FR5994/Blink/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/mkhuthir/ws/TI/LP_MSP430FR5994/Blink/include",
+                    "/home/mkhuthir/ws/TI/LP_MSP430FR5994/Blink/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=16000000L",
+                "PLATFORMIO=60111",
+                "ENERGIA_ARCH_MSP430",
+                "ENERGIA_MSP_EXP430FR5994LP",
+                ""
+            ],
+            "compilerPath": "/home/mkhuthir/.platformio/packages/toolchain-timsp430/bin/msp430-gcc",
+            "compilerArgs": [
+                "-mmcu=msp430fr5994",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

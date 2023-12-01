@@ -1,8 +1,9 @@
 // Muthanna Alwahash
 // Dec 2023
+#include <msp430fr6989.h>
 
-void main()
+int main(void)
 {
-	while(1);
+	
 }
 
