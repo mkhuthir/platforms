@@ -27,15 +27,14 @@ void stop_song(){
   Serial.println("Song Stopped \n");
 }
 
-void play_song(int Speed){
+void play_song(){
   current_time = millis(); // Get current time (in ms)
   if(song_playing && current_time - song_time >= (unsigned long)note_time) {
     song_time = current_time;
     note_index = (note_index+1) % (sizeof(notes)/sizeof(notes[0]));
-    note_time = duration[note_index] * Speed;
+    note_time = duration[note_index] * SPEED;
     tone(Buzzer_PIN, notes[note_index], note_time);
   }
-  Serial.println("Playing...\n");
 }
 
 void setup() {
@@ -47,5 +46,5 @@ void setup() {
 }
 
 void loop() {
-  play_song(SPEED);
+  play_song();
 }
