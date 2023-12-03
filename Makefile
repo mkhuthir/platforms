@@ -15,3 +15,6 @@ upload:
 
 list:
 	$(CC) device list
+
+monitor:
+	$(CC) device monitor
