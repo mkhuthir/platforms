@@ -1,6 +1,7 @@
+// Muthanna Alwahash
+// Dec 2023
 
-
-// Borrowed with <3 from here: https://github.com/xitangg/-Pirates-of-the-Caribbean-Theme-Song
+#define SPEED 1.5               // Song speed, the bigger the number the slower the song
 
 #define NOTE_C4  262
 #define NOTE_D4  294
@@ -120,3 +121,7 @@ int duration[] {
   250, 125, 375, 250, 125, 375,
   125, 125, 125, 125, 125, 500
 };
+
+void start_song();
+void stop_song();
+void play_song();
