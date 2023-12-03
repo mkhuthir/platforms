@@ -1,7 +1,6 @@
 // Muthanna Alwahash
 // Dec 2023
 
-
 #include <Arduino.h>
 
 #define Buzzer_PIN 5          	// Buzzer Pin is on GPIO5
