@@ -11,9 +11,9 @@ void setup() {
   pinMode(Buzzer_PIN, OUTPUT);  // Init buzzer pin
   Serial.println("Setup Started\n");
  
-  start_song();
+  start_song();                 // Start playing the song
 }
 
 void loop() {
-  play_song();
+  play_song();                  // Song will continue playing until you call stop_song();
 }
