@@ -1,6 +1,8 @@
 // Muthanna Alwahash
 // Dec 2023
 
+#include <Arduino.h>
+#include <song.h>
 
 unsigned long song_time { 0 };  // Last song update
 unsigned long current_time;     // to store current time ms.

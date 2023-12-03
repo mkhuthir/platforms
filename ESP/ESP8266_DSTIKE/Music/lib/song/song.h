@@ -1,6 +1,7 @@
 // Muthanna Alwahash
 // Dec 2023
 
+#define Buzzer_PIN 5          	// Buzzer Pin is on GPIO5
 #define SPEED 1.5               // Song speed, the bigger the number the slower the song
 
 #define NOTE_C4  262

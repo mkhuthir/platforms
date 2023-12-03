@@ -4,7 +4,6 @@
 #include <Arduino.h>
 #include <song.h>
 
-#define Buzzer_PIN 5          	// Buzzer Pin is on GPIO5
 #define SERIAL_BAUD 115200      // Baudrate for serial communication
 
 void setup() {
