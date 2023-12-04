@@ -6,7 +6,6 @@
 
 void setup() {
   Serial.begin(SERIAL_BAUD);          // Start serial communication
-  Serial.println("Setup Done!\n");
 }
 
 void loop() {
