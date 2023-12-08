@@ -5,3 +5,4 @@ Description: Open DFU Bootloader
 
 ------------
 SoftDevice ID = 8044e2ff33164124b637e0065bf15982
+
