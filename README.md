@@ -1,2 +1,2 @@
-# Platforms
-## Boards and Sensors Testing Code
+# Workspace
+## Platforms, Boards, MCUs, and Sensors Testing Code
