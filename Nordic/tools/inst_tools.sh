@@ -3,12 +3,6 @@
 sudo apt install openocd urjtag gdb-multiarch 
 sudo apt install device-tree-compiler gcc 
 sudo apt install cmake make ninja-build
-pip install -U pyocd
+sudo apt install dfu-util
 
-# verify versions
-echo "cmake:\n"
-cmake --version
-echo "pyton3:\n"
-python3 --version
-echo "dtc:\n"
-dtc --version
+pip install -U pyocd
