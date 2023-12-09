@@ -1,0 +1,7 @@
+
+
+https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/guides/ncs/setup/#install-zephyr-sdk
+
+https://docs.zephyrproject.org/latest/develop/west/install.html
+
+https://docs.zephyrproject.org/latest/develop/getting_started/index.html
