@@ -3,7 +3,14 @@
 https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/guides/ncs/setup/#install-zephyr-sdk
 
 
-Zephyr Project
-https://docs.zephyrproject.org/latest/develop/west/install.html
+Zephyr Project:
 https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 https://github.com/zephyrproject-rtos
+
+
+NCS Samples:
+https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/guides/ncs/building/
+
+west init -m https://github.com/makerdiary/ncs-playground --mr main nrf_ws
+cd nrf_ws/ncs-playground
+west build -p always -b dongle_nrf52840 samples/blinky

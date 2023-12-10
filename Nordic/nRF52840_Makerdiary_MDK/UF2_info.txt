@@ -1,0 +1,5 @@
+UF2 Bootloader 0.7.1 lib/nrfx (v2.0.0) lib/tinyusb (0.12.0-145-g9775e7691) lib/uf2 (remotes/origin/configupdate-9-gadbb8c7)
+Model: Makerdiary nRF52840 MDK USB Dongle
+Board-ID: nRF52840-MDK-USB-DONGLE
+Date: Jul 20 2023
+SoftDevice: not found
