@@ -1,0 +1,4 @@
+/dev/ttyACM0
+------------
+Hardware ID: USB VID:PID=1915:521F SER=DE2F27308C20 LOCATION=1-11:1.0
+Description: Open DFU Bootloader

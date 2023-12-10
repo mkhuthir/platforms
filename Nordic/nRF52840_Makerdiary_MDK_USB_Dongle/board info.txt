@@ -1,11 +1,5 @@
-/dev/ttyACM0
-------------
-Hardware ID: USB VID:PID=1915:521F SER=DE2F27308C20 LOCATION=1-11:1.0
-Description: Open DFU Bootloader
-
-------------
-SoftDevice ID = 8044e2ff33164124b637e0065bf15982
 
 https://devzone.nordicsemi.com/guides/short-range-guides/b/getting-started/posts/nrf52840-dongle-programming-tutorial
 https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/
 https://infocenter.nordicsemi.com/index.jsp?topic=/ug_nrf52840_dongle/UG/nrf52840_Dongle
+https://github.com/makerdiary/nrf52840-mdk-usb-dongle/tree/main
