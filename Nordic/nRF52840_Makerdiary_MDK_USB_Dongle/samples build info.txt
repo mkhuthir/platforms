@@ -15,6 +15,7 @@ west zephyr-export
 cd ncs-playground
 west build -p always -b dongle_nrf52840 samples/blinky
 cp build/zephyr/zephyr.uf2 /media/mkhuthir/UF2BOOT/.
+cp build/zephyr/zephyr.uf2 ~/ws/Nordic/nRF52840_Makerdiary_MDK_USB_Dongle/firmware/zephyr_ncs_samples_xxx.uf2
 
 
 when finished:
