@@ -11,6 +11,7 @@ west init -m https://github.com/makerdiary/ncs-playground --mr main nrf_ws
 cd nrf_ws
 west update
 west zephyr-export
+
 cd ncs-playground
 west build -p always -b dongle_nrf52840 samples/blinky
 cp build/zephyr/zephyr.uf2 /media/mkhuthir/UF2BOOT/.
