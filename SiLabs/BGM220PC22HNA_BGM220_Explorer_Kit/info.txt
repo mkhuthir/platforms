@@ -1,0 +1,33 @@
+https://www.sparkfun.com/products/17588
+
+
+Small Form Factor Kit
+EXP compatible breakouts
+Target device
+BGM220PC22HNA
+Secure Bluetooth 5.2 module
+76.8 MHz, ARM Cortex-M33 with 512 kB of flash and 32 kB RAM
+Bluetooth 5.2 Radio with supported for direction finding and LE coded PHY 38.4 MHz HFXO crystal
+32.768 kHz LFXO crystal
+2.4 GHz matching network and a chip antenna
+On-board Board controller
+J-Link debugger
+SWD physical layer
+Packet trace over UART/async protocol
+Virtual COM with hardware flow control
+USB Micro-B connector for debug connection
+User interface features
+1x button (with EM2 wake-up)
+1x LED
+Mini Simplicity Debug Connector (SLSDA001A compatible) with access to
+AEM
+PTI
+VCOM
+SWD
+Third-party add-on connectors
+mikroBus socket
+Qwiic connector
+
+
+
+https://docs.silabs.com/bluetooth/latest/bluetooth-getting-started-bgm/
