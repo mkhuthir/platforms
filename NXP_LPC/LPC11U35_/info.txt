@@ -1,1 +1,4 @@
 https://www.nxp.com/docs/en/data-sheet/LPC11U3X.pdf
+https://wiki.makerdiary.com/nrf52832-mdk/
+
+
