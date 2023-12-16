@@ -1,1 +1,2 @@
 https://www.sparkfun.com/datasheets/Wireless/Nordic/nRF24LU1P_1_0.pdf
+https://www.nordicsemi.com/Products/Development-tools/nrfgo-studio
