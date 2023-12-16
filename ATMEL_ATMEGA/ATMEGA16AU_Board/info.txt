@@ -1,0 +1,12 @@
+https://www.amazon.ae/gp/product/B095WZW3G9/ref=ppx_od_dt_b_asin_title_s00?ie=UTF8&psc=1
+
+Features:
+* All 32 I/O pins are pulled out (PA, PB, PC, PD)
+* Crystal socket hole. Default is 8MHz.
+* Supported chips: ATmega16 MCU / ATmega32 chip is pin compatible.
+* Power: power adapter or external expansion pin power supply (not supported by ISP download interface)
+* Power Supply 5V (DC-005 Jack 5.5mm * 2.1mm).
+* 4 channels VCC, GND.
+* Reset: Power-on and reset button.
+* Power indicator (D1) and program run indicator (D2).
+* Standard ISP download interface.
