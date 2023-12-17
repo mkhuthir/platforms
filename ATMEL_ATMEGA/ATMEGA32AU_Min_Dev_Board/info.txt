@@ -10,3 +10,5 @@ Features:
 * Reset: Power-on and reset button.
 * Power indicator (D1) and program run indicator (D2).
 * Standard ISP download interface.
+
+https://www.robot-electronics.co.uk/htm/ATMEGA32_examples.htm#CMPS03%20I2C
