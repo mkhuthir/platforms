@@ -1,0 +1,3 @@
+https://dicks.home.xs4all.nl/avr/usbtiny/
+https://www.amazon.ae/ATtiny44-USBTinyISP-Programmer-Bootloader-Microcontroller/dp/B09PZF4564
+https://www.hackster.io/patrick-fitzgerald2/fabisp-avr-isp-attiny44-usbtiny-programmer-ab20e6
