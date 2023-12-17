@@ -1,4 +1,4 @@
 #!/bin/sh
 
-avrdude -p ATMEGA16 -c USBTINY
+avrdude -p ATMEGA32 -c USBTINY
 

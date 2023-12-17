@@ -1,4 +1,4 @@
 #!/bin/sh
 
-avrdude -p ATMEGA16 -c USBASP
+avrdude -p ATMEGA32 -c USBASP
 

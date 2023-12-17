@@ -1,7 +1,9 @@
-none:
-	$(error use 'make flash' or 'make fuse')
-
+help:
+	@echo "This Makefile has no default rule. Use one of the following:"
+	@echo "make fuse ...... to flash the fuses"
+	@echo "make flash ..... to flash the firmware"
+	
 flash:
-	avrdude -c usbtiny -pATMEGA16 -U flash:w:main.hex
+	avrdude -cUSBASP  -pATMEGA32 -U flash:w:main.hex
 fuse:
-	avrdude -c usbtiny -pATMEGA16 -U hfuse:w:0x46:m -U lfuse:w:0xDE:m
+	avrdude -cUSBASP -pATMEGA32 -U hfuse:w:0x99:m -U lfuse:w:0xE1:m
