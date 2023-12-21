@@ -7,5 +7,6 @@
 
 int main(void)
 {
-    printk("Press the button\n");
+    printk("Hello Muthanna Alwahash\n");
+    return 0;
 }
