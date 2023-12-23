@@ -1,2 +1,2 @@
-https://www.adafruit.com/product/2479
+https://www.adafruit.com/product/2267
 https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/tree/master?tab=readme-ov-file
