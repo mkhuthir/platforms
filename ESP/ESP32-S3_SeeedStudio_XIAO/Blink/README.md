@@ -8,7 +8,7 @@ How to build PlatformIO based project
 
 ```shell
 # Change directory to example
-$ cd platform-espressif32/examples/espidf-hello-world
+$ cd platform-espressif32/examples/arduino-blink
 
 # Build project
 $ pio run

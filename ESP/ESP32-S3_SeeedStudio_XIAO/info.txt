@@ -1,0 +1,3 @@
+https://www.seeedstudio.com/XIAO-ESP32S3-p-5627.html
+https://files.seeedstudio.com/wiki/SeeedStudio-XIAO-ESP32S3/res/esp32-s3_datasheet.pdf
+https://wiki.seeedstudio.com/xiao_esp32s3_getting_started/
