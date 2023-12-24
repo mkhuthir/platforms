@@ -1,1 +1,2 @@
 https://docs.particle.io/argon/
+https://docs.nordicsemi.com/

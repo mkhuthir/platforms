@@ -1,1 +1,2 @@
 https://docs.particle.io/xenon/
+https://docs.nordicsemi.com/
