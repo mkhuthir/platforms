@@ -1,0 +1,6 @@
+https://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny817-Xplained-Mini-UserGuide-DS50002657B.pdf
+https://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny817_Xplained_Mini_Schematics.pdf
+https://www.microchip.com/en-us/development-tool/ATTINY817-XMINI
+https://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny817-Xplained-Mini_Design-Documentation.zip
+https://www.microchip.com/en-us/product/ATTINY817
+https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATtiny417-814-816-817-DataSheet-DS40002288A.pdf
