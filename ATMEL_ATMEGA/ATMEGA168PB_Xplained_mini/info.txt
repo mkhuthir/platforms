@@ -1,0 +1,5 @@
+https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega168PB-Xplained-Mini-UG-DS50002636B.pdf
+https://www.microchip.com/en-us/development-tool/ATMEGA168PB-XMINI
+https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/ATmega48PB-88PB-168PB-DataSheet-DS40001909B.pdf
+https://ww1.microchip.com/downloads/en/DeviceDoc/50002636A_source.zip
+https://www.microchip.com/en-us/product/atmega168pb
