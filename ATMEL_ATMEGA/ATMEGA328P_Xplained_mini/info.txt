@@ -1,0 +1,4 @@
+https://www.microchip.com/en-us/development-tool/ATMEGA328P-XMINI
+https://ww1.microchip.com/downloads/en/DeviceDoc/ATmega328P-Xplained-Mini_Design-Documentation.zip
+https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/UserGuides/ATmega328P-Xplained-Mini-UG-DS50002659B.pdf
+https://www.microchip.com/en-us/product/atmega328p
