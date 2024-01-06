@@ -1,0 +1,2 @@
+https://www.microchip.com/en-us/development-tool/atavrxplain
+https://www.microchip.com/en-us/development-tool/atxmegab1-xpld
