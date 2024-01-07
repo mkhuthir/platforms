@@ -1,0 +1,10 @@
+#
+# Generated - do not edit!
+#
+# NOCDDL
+#
+CND_BASEDIR=`pwd`
+# default configuration
+CND_ARTIFACT_DIR_default=.ca/dist/default/production
+CND_ARTIFACT_NAME_default=NEC_IR_Remote.X.production.hex
+CND_ARTIFACT_PATH_default=.ca/dist/default/production/NEC_IR_Remote.X.production.hex
