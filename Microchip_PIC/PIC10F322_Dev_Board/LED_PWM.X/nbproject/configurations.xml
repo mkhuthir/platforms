@@ -42,7 +42,7 @@
         <platform>2</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC10-12Fxxx_DFP" vendor="Microchip" version="1.6.174"/>
+        <pack name="PIC10-12Fxxx_DFP" vendor="Microchip" version="1.7.178"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
