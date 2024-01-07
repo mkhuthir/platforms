@@ -1,0 +1,4 @@
+https://www.microchip.com/en-us/development-tool/dm164144
+https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/UserGuides/PIC16F18446-Curiosity-Nano-HW-User-Guide-DS50002808C.pdf
+https://ww1.microchip.com/downloads/en/DeviceDoc/PIC16F18446_Curiosity_Nano_Schematics.pdf
+https://ww1.microchip.com/downloads/en/DeviceDoc/PIC16F18446_Curiosity_Nano_Design_Documentation.zip
