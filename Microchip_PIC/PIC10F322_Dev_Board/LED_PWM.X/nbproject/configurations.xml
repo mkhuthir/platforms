@@ -36,7 +36,7 @@
         <targetDevice>PIC10F322</targetDevice>
         <targetHeader></targetHeader>
         <targetPluginBoard></targetPluginBoard>
-        <platformTool>PICkit3PlatformTool</platformTool>
+        <platformTool>Simulator</platformTool>
         <languageToolchain>XC8</languageToolchain>
         <languageToolchainVersion>2.45</languageToolchainVersion>
         <platform>2</platform>
