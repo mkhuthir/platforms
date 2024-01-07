@@ -8,13 +8,13 @@
 #include <stdbool.h>
 
 typedef uint8_t adc_result_t;
-typedef enum
-{
-    channel_FVR  =  0b111,
-    channel_TEMP =  0b110,
-    channel_AN2  =  0b010,
-    channel_AN1  =  0b001,
-    channel_AN0  =  0b000
+
+typedef enum {
+    channel_FVR = 0b111,
+    channel_TEMP = 0b110,
+    channel_AN2 = 0b010,
+    channel_AN1 = 0b001,
+    channel_AN0 = 0b000
 } adc_channel_t;
 
 void ADC_Initialize(void);

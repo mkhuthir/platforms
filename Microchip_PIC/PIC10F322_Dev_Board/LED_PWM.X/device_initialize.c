@@ -12,16 +12,14 @@
 
 #include "device_initialize.h"
 
-void SYSTEM_Initialize(void)
-{
+void SYSTEM_Initialize(void) {
     OSCILLATOR_Initialize();
     ADC_Initialize();
     PWM_Initialize();
     TMR2_Initialize();
 }
 
-void OSCILLATOR_Initialize(void)
-{
+void OSCILLATOR_Initialize(void) {
     // IRCF 8MHz_INTOSC;
     OSCCON = 0x60;
 }
