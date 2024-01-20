@@ -3,8 +3,8 @@
   <projectmakefile>Makefile</projectmakefile>
   <defaultConf>0</defaultConf>
   <confs>
-    <conf name="free" type="2">
-      <platformToolSN></platformToolSN>
+    <conf name="default" type="2">
+      <platformToolSN>noToolString</platformToolSN>
       <languageToolchainDir>/opt/microchip/xc8/v2.45/bin</languageToolchainDir>
       <mdbdebugger version="1">
         <placeholder1>place holder 1</placeholder1>

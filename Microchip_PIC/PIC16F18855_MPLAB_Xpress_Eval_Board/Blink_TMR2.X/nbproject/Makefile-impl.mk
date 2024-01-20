@@ -24,14 +24,14 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Blink.X
+PROJECTNAME=Blink_TMR2.X
 
 # Active Configuration
-DEFAULTCONF=free
+DEFAULTCONF=default
 CONF=${DEFAULTCONF}
 
 # All Configurations
-ALLCONFS=free 
+ALLCONFS=default 
 
 
 # build
@@ -45,13 +45,13 @@ ALLCONFS=free
 
 # clobber
 .clobber-impl: .clobber-pre .depcheck-impl
-	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=free clean
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default clean
 
 
 
 # all
 .all-impl: .all-pre .depcheck-impl
-	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=free build
+	    ${MAKE} SUBPROJECTS=${SUBPROJECTS} CONF=default build
 
 
 
