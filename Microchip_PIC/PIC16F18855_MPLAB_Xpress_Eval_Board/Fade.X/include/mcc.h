@@ -10,6 +10,7 @@
 #include "clc1.h"
 #include "tmr4.h"
 #include "tmr6.h"
+#include "pwm6.h"
 #include "pwm7.h"
 
 
