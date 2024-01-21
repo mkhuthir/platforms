@@ -51,17 +51,17 @@ OBJECTDIR=build/${CND_CONF}/${IMAGE_TYPE}
 DISTDIR=dist/${CND_CONF}/${IMAGE_TYPE}
 
 # Source Files Quoted if spaced
-SOURCEFILES_QUOTED_IF_SPACED=src/clc1.c src/main.c src/mcc.c src/pin_manager.c src/pwm6.c src/pwm7.c src/tmr4.c src/tmr6.c
+SOURCEFILES_QUOTED_IF_SPACED=src/clc1.c src/main.c src/mcc.c src/pin_manager.c src/pwm6.c src/pwm7.c src/tmr4.c src/tmr6.c src/device_config.c
 
 # Object Files Quoted if spaced
-OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/src/clc1.p1 ${OBJECTDIR}/src/main.p1 ${OBJECTDIR}/src/mcc.p1 ${OBJECTDIR}/src/pin_manager.p1 ${OBJECTDIR}/src/pwm6.p1 ${OBJECTDIR}/src/pwm7.p1 ${OBJECTDIR}/src/tmr4.p1 ${OBJECTDIR}/src/tmr6.p1
-POSSIBLE_DEPFILES=${OBJECTDIR}/src/clc1.p1.d ${OBJECTDIR}/src/main.p1.d ${OBJECTDIR}/src/mcc.p1.d ${OBJECTDIR}/src/pin_manager.p1.d ${OBJECTDIR}/src/pwm6.p1.d ${OBJECTDIR}/src/pwm7.p1.d ${OBJECTDIR}/src/tmr4.p1.d ${OBJECTDIR}/src/tmr6.p1.d
+OBJECTFILES_QUOTED_IF_SPACED=${OBJECTDIR}/src/clc1.p1 ${OBJECTDIR}/src/main.p1 ${OBJECTDIR}/src/mcc.p1 ${OBJECTDIR}/src/pin_manager.p1 ${OBJECTDIR}/src/pwm6.p1 ${OBJECTDIR}/src/pwm7.p1 ${OBJECTDIR}/src/tmr4.p1 ${OBJECTDIR}/src/tmr6.p1 ${OBJECTDIR}/src/device_config.p1
+POSSIBLE_DEPFILES=${OBJECTDIR}/src/clc1.p1.d ${OBJECTDIR}/src/main.p1.d ${OBJECTDIR}/src/mcc.p1.d ${OBJECTDIR}/src/pin_manager.p1.d ${OBJECTDIR}/src/pwm6.p1.d ${OBJECTDIR}/src/pwm7.p1.d ${OBJECTDIR}/src/tmr4.p1.d ${OBJECTDIR}/src/tmr6.p1.d ${OBJECTDIR}/src/device_config.p1.d
 
 # Object Files
-OBJECTFILES=${OBJECTDIR}/src/clc1.p1 ${OBJECTDIR}/src/main.p1 ${OBJECTDIR}/src/mcc.p1 ${OBJECTDIR}/src/pin_manager.p1 ${OBJECTDIR}/src/pwm6.p1 ${OBJECTDIR}/src/pwm7.p1 ${OBJECTDIR}/src/tmr4.p1 ${OBJECTDIR}/src/tmr6.p1
+OBJECTFILES=${OBJECTDIR}/src/clc1.p1 ${OBJECTDIR}/src/main.p1 ${OBJECTDIR}/src/mcc.p1 ${OBJECTDIR}/src/pin_manager.p1 ${OBJECTDIR}/src/pwm6.p1 ${OBJECTDIR}/src/pwm7.p1 ${OBJECTDIR}/src/tmr4.p1 ${OBJECTDIR}/src/tmr6.p1 ${OBJECTDIR}/src/device_config.p1
 
 # Source Files
-SOURCEFILES=src/clc1.c src/main.c src/mcc.c src/pin_manager.c src/pwm6.c src/pwm7.c src/tmr4.c src/tmr6.c
+SOURCEFILES=src/clc1.c src/main.c src/mcc.c src/pin_manager.c src/pwm6.c src/pwm7.c src/tmr4.c src/tmr6.c src/device_config.c
 
 
 
@@ -152,6 +152,14 @@ ${OBJECTDIR}/src/tmr6.p1: src/tmr6.c  nbproject/Makefile-${CND_CONF}.mk
 	@-${MV} ${OBJECTDIR}/src/tmr6.d ${OBJECTDIR}/src/tmr6.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/src/tmr6.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
+${OBJECTDIR}/src/device_config.p1: src/device_config.c  nbproject/Makefile-${CND_CONF}.mk 
+	@${MKDIR} "${OBJECTDIR}/src" 
+	@${RM} ${OBJECTDIR}/src/device_config.p1.d 
+	@${RM} ${OBJECTDIR}/src/device_config.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c  -D__DEBUG=1  -mdebugger=none   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"include" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o ${OBJECTDIR}/src/device_config.p1 src/device_config.c 
+	@-${MV} ${OBJECTDIR}/src/device_config.d ${OBJECTDIR}/src/device_config.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/src/device_config.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
 else
 ${OBJECTDIR}/src/clc1.p1: src/clc1.c  nbproject/Makefile-${CND_CONF}.mk 
 	@${MKDIR} "${OBJECTDIR}/src" 
@@ -216,6 +224,14 @@ ${OBJECTDIR}/src/tmr6.p1: src/tmr6.c  nbproject/Makefile-${CND_CONF}.mk
 	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"include" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o ${OBJECTDIR}/src/tmr6.p1 src/tmr6.c 
 	@-${MV} ${OBJECTDIR}/src/tmr6.d ${OBJECTDIR}/src/tmr6.p1.d 
 	@${FIXDEPS} ${OBJECTDIR}/src/tmr6.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
+	
+${OBJECTDIR}/src/device_config.p1: src/device_config.c  nbproject/Makefile-${CND_CONF}.mk 
+	@${MKDIR} "${OBJECTDIR}/src" 
+	@${RM} ${OBJECTDIR}/src/device_config.p1.d 
+	@${RM} ${OBJECTDIR}/src/device_config.p1 
+	${MP_CC} $(MP_EXTRA_CC_PRE) -mcpu=$(MP_PROCESSOR_OPTION) -c   -mdfp="${DFP_DIR}/xc8"  -fno-short-double -fno-short-float -O0 -fasmfile -maddrqual=ignore -xassembler-with-cpp -I"include" -mwarn=-3 -Wa,-a -DXPRJ_default=$(CND_CONF)  -msummary=-psect,-class,+mem,-hex,-file  -ginhx32 -Wl,--data-init -mno-keep-startup -mno-osccal -mno-resetbits -mno-save-resetbits -mno-download -mno-stackcall -mno-default-config-bits $(COMPARISON_BUILD)  -std=c99 -gdwarf-3 -mstack=compiled:auto:auto     -o ${OBJECTDIR}/src/device_config.p1 src/device_config.c 
+	@-${MV} ${OBJECTDIR}/src/device_config.d ${OBJECTDIR}/src/device_config.p1.d 
+	@${FIXDEPS} ${OBJECTDIR}/src/device_config.p1.d $(SILENT) -rsi ${MP_CC_DIR}../  
 	
 endif
 
