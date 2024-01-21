@@ -5,7 +5,7 @@
 
 void main(void)
 {
-    SYSTEM_Initialize();
+    SYSTEM_Initialize();    // initialize the device
 
     // When using interrupts, you need to set the Global and Peripheral Interrupt Enable bits, Use the following macros to:
 
