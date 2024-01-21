@@ -3,7 +3,3 @@
 
 #include "mcc.h"
 
-void SYSTEM_Initialize(void)
-{
-
-}
