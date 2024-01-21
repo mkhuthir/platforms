@@ -17,6 +17,7 @@
 #pragma config ZCD = ON             // Zero-cross detect disable->Zero-cross detect circuit is disabled at POR.
 #pragma config PPS1WAY = ON         // Peripheral Pin Select one-way control->The PPSLOCK bit can be cleared and set only once in software
 #pragma config STVREN = ON          // Stack Overflow/Underflow Reset Enable bit->Stack Overflow or Underflow will cause a reset
+#pragma config DEBUG = OFF          // Background Debugger->Background Debugger disabled
 
 // CONFIG3 -----------------------------------------------------------------------------------------------------------------
 #pragma config WDTCPS = WDTCPS_31   // WDT Period Select bits->Divider ratio 1:65536; software control of WDTPS
