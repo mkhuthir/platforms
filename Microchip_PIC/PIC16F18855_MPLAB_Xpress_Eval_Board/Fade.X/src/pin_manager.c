@@ -29,20 +29,20 @@ void PIN_MANAGER_Initialize(void)
     ODCONC = 0x00;
     
     bool state = GIE;
+    
     GIE = 0;
     PPSLOCK = 0x55;
     PPSLOCK = 0xAA;
     PPSLOCKbits.PPSLOCKED = 0x00;       // unlock PPS
-
-    T6AINPPSbits.T6AINPPS = 0x0F;       //RB7->TMR6:T6IN;
-    T4AINPPSbits.T4AINPPS = 0x15;       //RC5->TMR4:T4IN;
-    CLCIN0PPSbits.CLCIN0PPS = 0x04;     //RA4->CLC1:CLCIN0;
     
     RA0PPS = 0x01;                      //RA0->CLC1:CLC1OUT;
     RA1PPS = 0x01;                      //RA1->CLC1:CLC1OUT;
     RA2PPS = 0x01;                      //RA2->CLC1:CLC1OUT;
     RA3PPS = 0x01;                      //RA3->CLC1:CLC1OUT;
-
+    CLCIN0PPSbits.CLCIN0PPS = 0x04;     //RA4->CLC1:CLCIN0;
+    T4AINPPSbits.T4AINPPS = 0x15;       //RC5->TMR4:T4IN;
+    T6AINPPSbits.T6AINPPS = 0x0F;       //RB7->TMR6:T6IN;
+    
     PPSLOCK = 0x55;
     PPSLOCK = 0xAA;
     PPSLOCKbits.PPSLOCKED = 0x01;       // lock PPS

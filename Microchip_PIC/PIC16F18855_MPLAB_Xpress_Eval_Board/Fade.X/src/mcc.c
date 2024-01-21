@@ -8,10 +8,10 @@ void SYSTEM_Initialize(void)
 
     PIN_MANAGER_Initialize();
     OSCILLATOR_Initialize();
-    PWM6_Initialize();
-    TMR6_Initialize();
     CLC1_Initialize();
     TMR4_Initialize();
+    TMR6_Initialize();
+    PWM6_Initialize();
     PWM7_Initialize();
 }
 
