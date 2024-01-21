@@ -5,49 +5,28 @@
 #include "pin_manager.h"
 #include "stdbool.h"
 
-
 void PIN_MANAGER_Initialize(void)
 {
-    /**
-    LATx registers
-    */   
     LATA = 0x00;    
     LATB = 0x00;    
     LATC = 0x00;    
 
-    /**
-    TRISx registers
-    */    
     TRISA = 0xF0;
     TRISB = 0xFF;
     TRISC = 0xFF;
 
-    /**
-    ANSELx registers
-    */   
     ANSELC = 0xDF;
     ANSELB = 0x7F;
     ANSELA = 0xEF;
 
-    /**
-    WPUx registers
-    */ 
     WPUE = 0x08;
     WPUB = 0xFF;
     WPUA = 0xFF;
     WPUC = 0xFF;
 
-    /**
-    ODx registers
-    */   
     ODCONA = 0x00;
     ODCONB = 0x00;
     ODCONC = 0x00;
-    
-
-
-   
-    
     
     bool state = GIE;
     GIE = 0;
