@@ -6,7 +6,8 @@
                    projectFiles="true">
       <itemPath>include/eusart.h</itemPath>
       <itemPath>include/pin_manager.h</itemPath>
-      <itemPath>include/system_config.h</itemPath>
+      <itemPath>include/device_config.h</itemPath>
+      <itemPath>include/mcc.h</itemPath>
     </logicalFolder>
     <logicalFolder name="LinkerScript"
                    displayName="Linker Files"
@@ -18,7 +19,8 @@
       <itemPath>src/eusart.c</itemPath>
       <itemPath>src/main.c</itemPath>
       <itemPath>src/pin_manager.c</itemPath>
-      <itemPath>src/system_config.c</itemPath>
+      <itemPath>src/device_config.c</itemPath>
+      <itemPath>src/mcc.c</itemPath>
     </logicalFolder>
     <logicalFolder name="ExternalFiles"
                    displayName="Important Files"
@@ -43,7 +45,7 @@
         <platform>2</platform>
       </toolsSet>
       <packs>
-        <pack name="PIC16F1xxxx_DFP" vendor="Microchip" version="1.23.382"/>
+        <pack name="PIC16F1xxxx_DFP" vendor="Microchip" version="1.24.387"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>

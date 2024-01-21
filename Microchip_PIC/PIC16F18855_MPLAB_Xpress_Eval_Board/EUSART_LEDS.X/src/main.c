@@ -1,7 +1,7 @@
 // Muthanna Alwahash
 // Jan 2024
 
-#include "system_config.h"
+#include "mcc.h"
 
 //stdio is redirected to USART (TX=RC0) baud rate 19200 8N1
 
