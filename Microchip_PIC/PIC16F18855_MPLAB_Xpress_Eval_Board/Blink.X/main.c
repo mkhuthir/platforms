@@ -16,10 +16,10 @@ int main(void)
     {
         IO_RA0_Toggle();
         IO_RA1_Toggle();
-        IO_RA2_Toggle(); 
-        IO_RA3_Toggle(); 
-        
-        __delay_ms(500);
-        
-    }    
+        IO_RA2_Toggle();
+        IO_RA3_Toggle();
+
+        __delay_ms(100);
+
+    }
 }
