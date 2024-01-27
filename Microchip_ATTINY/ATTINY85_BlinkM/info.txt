@@ -1,0 +1,4 @@
+https://thingm.com/products/blinkm
+https://github.com/todbot/BlinkM-Examples
+https://static1.squarespace.com/static/5c155684f407b4100552994c/t/5c2d20ca0e2e7292108eadf8/1546461407535/BlinkM_datasheet.pdf
+
