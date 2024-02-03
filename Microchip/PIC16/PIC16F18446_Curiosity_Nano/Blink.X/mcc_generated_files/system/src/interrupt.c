@@ -1,14 +1,5 @@
-/**
- * Interrupt Manager Generated Driver File
- *
- * @file interrupt.c
- * 
- * @ingroup interrupt 
- * 
- * @brief This file contains the API implementation for the Interrupt Manager driver.
- * 
- * @version Interrupt Manager Driver Version 2.0.5
-*/
+// Muthanna Alwahash
+// Feb 2024
 
 #include "../../system/interrupt.h"
 #include "../../system/system.h"
@@ -74,6 +65,3 @@ void INT_DefaultInterruptHandler(void){
     // add your INT interrupt custom code
     // or set custom function using INT_SetInterruptHandler()
 }
-/**
- End of File
-*/

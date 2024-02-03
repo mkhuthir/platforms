@@ -1,15 +1,5 @@
-/**
- * CLOCK Generated Driver Source File
- * 
- * @file clock.c
- * 
- * @ingroup clockdriver 
- * 
- * @brief This file contains the API prototypes for the Clock driver.
- *
- * @version Driver Version 2.0.3
-*/
-
+// Muthanna Alwahash
+// Feb 2024
 
 #include <xc.h>
 #include "../clock.h"
@@ -29,6 +19,3 @@ void CLOCK_Initialize(void)
     OSCTUNE = 0x0;
 
 }
-/**
- End of File
-*/

@@ -2,12 +2,12 @@
 
 manifest_file_version: 1.0.0
 project: Blink
-creation_date: 2024-02-03T08:30:23.940+04:00[Asia/Dubai]
+creation_date: 2024-02-03T09:05:41.639+04:00[Asia/Dubai]
 operating_system: Linux
 mcc_mode: IDE
 mcc_mode_version: v6.15
 device_name: PIC16F18446
-compiler: XC8 2.45
+compiler: XC8 2.46
 mcc_version: 5.4.1
 mcc_core_version: 5.6.1
 content_manager_version: 4.3.2

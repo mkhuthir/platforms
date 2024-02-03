@@ -1,15 +1,5 @@
-/**
- * Generated Driver File
- * 
- * @file pins.c
- * 
- * @ingroup  pinsdriver
- * 
- * @brief This is generated driver implementation for pins. 
- *        This file provides implementations for pin APIs for all pins selected in the GUI.
- *
- * @version Driver Version 3.0.0
-*/
+// Muthanna Alwahash
+// Feb 2024
 
 #include "../pins.h"
 
@@ -91,6 +81,3 @@ void PIN_MANAGER_Initialize(void)
 void PIN_MANAGER_IOC(void)
 {
 }
-/**
- End of File
-*/

@@ -1,14 +1,5 @@
-/**
- * Configuration Bits Generated Driver Source File
- * 
- * @file config_bits.c
- * 
- * @ingroup config_bitsdriver
- * 
- * @brief This file contains the API Implementation for the Device Configuration Bits driver.
- *
- * @version Driver Version 2.0.1
-*/
+// Muthanna Alwahash
+// Feb 2024
 
 // Configuration bits: selected in the GUI
 
@@ -49,7 +40,3 @@
 
 //CONFIG5
 #pragma config CP = OFF    // Program Flash Memory Code Protection bit->UserNVM code protection disabled
-
-/**
- End of File
-*/

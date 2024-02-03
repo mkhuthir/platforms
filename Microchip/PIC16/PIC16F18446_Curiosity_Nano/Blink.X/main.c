@@ -1,14 +1,5 @@
- /*
- * MAIN Generated Driver File
- * 
- * @file main.c
- * 
- * @defgroup main MAIN
- * 
- * @brief This is the generated driver implementation file for the MAIN driver.
- *
- * @version MAIN Driver Version 1.0.0
-*/
+// Muthanna Alwahash
+// Feb 2024
 
 #include "mcc_generated_files/system/system.h"
 
@@ -36,8 +27,11 @@ int main(void)
     // Disable the Peripheral Interrupts 
     //INTERRUPT_PeripheralInterruptDisable(); 
 
-
+    LED0_SetLow();
+    
     while(1)
     {
+        LED0_Toggle();
+        __delay_ms(50);
     }    
 }
