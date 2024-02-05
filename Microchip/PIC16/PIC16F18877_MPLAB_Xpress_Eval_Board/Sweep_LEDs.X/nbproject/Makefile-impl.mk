@@ -24,7 +24,7 @@ CLEAN_SUBPROJECTS=${CLEAN_SUBPROJECTS_${SUBPROJECTS}}
 
 
 # Project Name
-PROJECTNAME=Blink.X
+PROJECTNAME=Sweep_LEDs.X
 
 # Active Configuration
 DEFAULTCONF=default

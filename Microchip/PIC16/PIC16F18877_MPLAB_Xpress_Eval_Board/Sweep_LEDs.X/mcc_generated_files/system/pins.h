@@ -1,5 +1,39 @@
-#ifndef PIN_MANAGER_H
-#define PIN_MANAGER_H
+/**
+ * Generated Pins header File
+ * 
+ * @file pins.h
+ * 
+ * @defgroup  pinsdriver Pins Driver
+ * 
+ * @brief This is generated driver header for pins. 
+ *        This header file provides APIs for all pins selected in the GUI.
+ *
+ * @version Driver Version  3.0.0
+*/
+
+/*
+© [2024] Microchip Technology Inc. and its subsidiaries.
+
+    Subject to your compliance with these terms, you may use Microchip 
+    software and any derivatives exclusively with Microchip products. 
+    You are responsible for complying with 3rd party license terms  
+    applicable to your use of 3rd party software (including open source  
+    software) that may accompany Microchip software. SOFTWARE IS ?AS IS.? 
+    NO WARRANTIES, WHETHER EXPRESS, IMPLIED OR STATUTORY, APPLY TO THIS 
+    SOFTWARE, INCLUDING ANY IMPLIED WARRANTIES OF NON-INFRINGEMENT,  
+    MERCHANTABILITY, OR FITNESS FOR A PARTICULAR PURPOSE. IN NO EVENT 
+    WILL MICROCHIP BE LIABLE FOR ANY INDIRECT, SPECIAL, PUNITIVE, 
+    INCIDENTAL OR CONSEQUENTIAL LOSS, DAMAGE, COST OR EXPENSE OF ANY 
+    KIND WHATSOEVER RELATED TO THE SOFTWARE, HOWEVER CAUSED, EVEN IF 
+    MICROCHIP HAS BEEN ADVISED OF THE POSSIBILITY OR THE DAMAGES ARE 
+    FORESEEABLE. TO THE FULLEST EXTENT ALLOWED BY LAW, MICROCHIP?S 
+    TOTAL LIABILITY ON ALL CLAIMS RELATED TO THE SOFTWARE WILL NOT 
+    EXCEED AMOUNT OF FEES, IF ANY, YOU PAID DIRECTLY TO MICROCHIP FOR 
+    THIS SOFTWARE.
+*/
+
+#ifndef PINS_H
+#define PINS_H
 
 #include <xc.h>
 
@@ -34,7 +68,6 @@
 #define IO_RC4_SetOpenDrain()       do { ODCONCbits.ODCC4 = 1; } while(0)
 #define IO_RC4_SetAnalogMode()      do { ANSELCbits.ANSC4 = 1; } while(0)
 #define IO_RC4_SetDigitalMode()     do { ANSELCbits.ANSC4 = 0; } while(0)
-
 // get/set IO_RC5 aliases
 #define IO_RC5_TRIS                 TRISCbits.TRISC5
 #define IO_RC5_LAT                  LATCbits.LATC5
@@ -54,7 +87,6 @@
 #define IO_RC5_SetOpenDrain()       do { ODCONCbits.ODCC5 = 1; } while(0)
 #define IO_RC5_SetAnalogMode()      do { ANSELCbits.ANSC5 = 1; } while(0)
 #define IO_RC5_SetDigitalMode()     do { ANSELCbits.ANSC5 = 0; } while(0)
-
 // get/set IO_RC6 aliases
 #define IO_RC6_TRIS                 TRISCbits.TRISC6
 #define IO_RC6_LAT                  LATCbits.LATC6
@@ -74,7 +106,6 @@
 #define IO_RC6_SetOpenDrain()       do { ODCONCbits.ODCC6 = 1; } while(0)
 #define IO_RC6_SetAnalogMode()      do { ANSELCbits.ANSC6 = 1; } while(0)
 #define IO_RC6_SetDigitalMode()     do { ANSELCbits.ANSC6 = 0; } while(0)
-
 // get/set IO_RC7 aliases
 #define IO_RC7_TRIS                 TRISCbits.TRISC7
 #define IO_RC7_LAT                  LATCbits.LATC7
@@ -94,7 +125,6 @@
 #define IO_RC7_SetOpenDrain()       do { ODCONCbits.ODCC7 = 1; } while(0)
 #define IO_RC7_SetAnalogMode()      do { ANSELCbits.ANSC7 = 1; } while(0)
 #define IO_RC7_SetDigitalMode()     do { ANSELCbits.ANSC7 = 0; } while(0)
-
 // get/set IO_RD4 aliases
 #define IO_RD4_TRIS                 TRISDbits.TRISD4
 #define IO_RD4_LAT                  LATDbits.LATD4
@@ -114,7 +144,6 @@
 #define IO_RD4_SetOpenDrain()       do { ODCONDbits.ODCD4 = 1; } while(0)
 #define IO_RD4_SetAnalogMode()      do { ANSELDbits.ANSD4 = 1; } while(0)
 #define IO_RD4_SetDigitalMode()     do { ANSELDbits.ANSD4 = 0; } while(0)
-
 // get/set IO_RD5 aliases
 #define IO_RD5_TRIS                 TRISDbits.TRISD5
 #define IO_RD5_LAT                  LATDbits.LATD5
@@ -134,7 +163,6 @@
 #define IO_RD5_SetOpenDrain()       do { ODCONDbits.ODCD5 = 1; } while(0)
 #define IO_RD5_SetAnalogMode()      do { ANSELDbits.ANSD5 = 1; } while(0)
 #define IO_RD5_SetDigitalMode()     do { ANSELDbits.ANSD5 = 0; } while(0)
-
 // get/set IO_RD6 aliases
 #define IO_RD6_TRIS                 TRISDbits.TRISD6
 #define IO_RD6_LAT                  LATDbits.LATD6
@@ -154,7 +182,6 @@
 #define IO_RD6_SetOpenDrain()       do { ODCONDbits.ODCD6 = 1; } while(0)
 #define IO_RD6_SetAnalogMode()      do { ANSELDbits.ANSD6 = 1; } while(0)
 #define IO_RD6_SetDigitalMode()     do { ANSELDbits.ANSD6 = 0; } while(0)
-
 // get/set IO_RD7 aliases
 #define IO_RD7_TRIS                 TRISDbits.TRISD7
 #define IO_RD7_LAT                  LATDbits.LATD7
@@ -174,8 +201,24 @@
 #define IO_RD7_SetOpenDrain()       do { ODCONDbits.ODCD7 = 1; } while(0)
 #define IO_RD7_SetAnalogMode()      do { ANSELDbits.ANSD7 = 1; } while(0)
 #define IO_RD7_SetDigitalMode()     do { ANSELDbits.ANSD7 = 0; } while(0)
-
+/**
+ * @ingroup  pinsdriver
+ * @brief GPIO and peripheral I/O initialization
+ * @param none
+ * @return none
+ */
 void PIN_MANAGER_Initialize (void);
+
+/**
+ * @ingroup  pinsdriver
+ * @brief Interrupt on Change Handling routine
+ * @param none
+ * @return none
+ */
 void PIN_MANAGER_IOC(void);
 
-#endif // PIN_MANAGER_H
+
+#endif // PINS_H
+/**
+ End of File
+*/
