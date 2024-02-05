@@ -1,13 +1,14 @@
- /*
- * MAIN Generated Driver File
+/**
+ * Generated Pins header File
  * 
- * @file main.c
+ * @file pins.h
  * 
- * @defgroup main MAIN
+ * @defgroup  pinsdriver Pins Driver
  * 
- * @brief This is the generated driver implementation file for the MAIN driver.
+ * @brief This is generated driver header for pins. 
+ *        This header file provides APIs for all pins selected in the GUI.
  *
- * @version MAIN Driver Version 1.0.0
+ * @version Driver Version  3.0.0
 */
 
 /*
@@ -30,34 +31,42 @@
     EXCEED AMOUNT OF FEES, IF ANY, YOU PAID DIRECTLY TO MICROCHIP FOR 
     THIS SOFTWARE.
 */
-#include "mcc_generated_files/system/system.h"
 
-/*
-    Main application
+#ifndef PINS_H
+#define PINS_H
+
+#include <xc.h>
+
+#define INPUT   1
+#define OUTPUT  0
+
+#define HIGH    1
+#define LOW     0
+
+#define ANALOG      1
+#define DIGITAL     0
+
+#define PULL_UP_ENABLED      1
+#define PULL_UP_DISABLED     0
+
+/**
+ * @ingroup  pinsdriver
+ * @brief GPIO and peripheral I/O initialization
+ * @param none
+ * @return none
+ */
+void PIN_MANAGER_Initialize (void);
+
+/**
+ * @ingroup  pinsdriver
+ * @brief Interrupt on Change Handling routine
+ * @param none
+ * @return none
+ */
+void PIN_MANAGER_IOC(void);
+
+
+#endif // PINS_H
+/**
+ End of File
 */
-
-int main(void)
-{
-    SYSTEM_Initialize();
-
-    // If using interrupts in PIC18 High/Low Priority Mode you need to enable the Global High and Low Interrupts 
-    // If using interrupts in PIC Mid-Range Compatibility Mode you need to enable the Global and Peripheral Interrupts 
-    // Use the following macros to: 
-
-    // Enable the Global Interrupts 
-    //INTERRUPT_GlobalInterruptEnable(); 
-
-    // Disable the Global Interrupts 
-    //INTERRUPT_GlobalInterruptDisable(); 
-
-    // Enable the Peripheral Interrupts 
-    //INTERRUPT_PeripheralInterruptEnable(); 
-
-    // Disable the Peripheral Interrupts 
-    //INTERRUPT_PeripheralInterruptDisable(); 
-
-
-    while(1)
-    {
-    }    
-}

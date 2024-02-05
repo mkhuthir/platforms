@@ -56,8 +56,33 @@ int main(void)
     // Disable the Peripheral Interrupts 
     //INTERRUPT_PeripheralInterruptDisable(); 
 
+    IO_RC4_SetLow();
+    IO_RC5_SetLow();
+    IO_RC6_SetLow();
+    IO_RC7_SetLow();
+    
+    IO_RD4_SetLow();
+    IO_RD5_SetLow();
+    IO_RD6_SetLow();
+    IO_RD7_SetLow();
 
     while(1)
     {
+        IO_RC4_Toggle();
+        __delay_ms(30);
+        IO_RC5_Toggle();
+        __delay_ms(30);
+        IO_RC6_Toggle();
+        __delay_ms(30);
+        IO_RC7_Toggle();
+        __delay_ms(30);
+        IO_RD4_Toggle();
+        __delay_ms(30);
+        IO_RD5_Toggle();
+        __delay_ms(30);
+        IO_RD6_Toggle();
+        __delay_ms(30);
+        IO_RD7_Toggle();
+        __delay_ms(30);
     }    
 }
