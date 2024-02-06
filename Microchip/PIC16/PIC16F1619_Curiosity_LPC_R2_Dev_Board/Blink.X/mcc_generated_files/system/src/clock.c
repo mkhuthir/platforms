@@ -1,13 +1,13 @@
- /*
- * MAIN Generated Driver File
+/**
+ * CLOCK Generated Driver Source File
  * 
- * @file main.c
+ * @file clock.c
  * 
- * @defgroup main MAIN
+ * @ingroup clockdriver 
  * 
- * @brief This is the generated driver implementation file for the MAIN driver.
+ * @brief This file contains the API implementation for the Clock driver.
  *
- * @version MAIN Driver Version 1.0.0
+ * @version Driver Version 1.0.0
 */
 
 /*
@@ -30,43 +30,22 @@
     EXCEED AMOUNT OF FEES, IF ANY, YOU PAID DIRECTLY TO MICROCHIP FOR 
     THIS SOFTWARE.
 */
-#include "mcc_generated_files/system/system.h"
 
-/*
-    Main application
-*/
+#include <xc.h>
+#include "../clock.h"
 
-int main(void)
+void CLOCK_Initialize(void)
 {
-    SYSTEM_Initialize();
-
-    // If using interrupts in PIC18 High/Low Priority Mode you need to enable the Global High and Low Interrupts 
-    // If using interrupts in PIC Mid-Range Compatibility Mode you need to enable the Global and Peripheral Interrupts 
-    // Use the following macros to: 
-
-    // Enable the Global Interrupts 
-    //INTERRUPT_GlobalInterruptEnable(); 
-
-    // Disable the Global Interrupts 
-    //INTERRUPT_GlobalInterruptDisable(); 
-
-    // Enable the Peripheral Interrupts 
-    //INTERRUPT_PeripheralInterruptEnable(); 
-
-    // Disable the Peripheral Interrupts 
-    //INTERRUPT_PeripheralInterruptDisable(); 
-
-    D4_SetLow();
-    D5_SetLow();
-    D6_SetLow();
-    D7_SetLow();
-
-    while(1)
-    {
-        D4_Toggle();
-        D5_Toggle();
-        D6_Toggle();
-        D7_Toggle();
-        __delay_ms(100);
-    }    
+    // Set the CLOCK CONTROL module to the options selected in the user interface.
+    // IRCF 16MHz_HF; SCS INTOSC; SPLLEN disabled; 
+    OSCCON = 0x7A;
+    // 
+    OSCSTAT = 0x0;
+    // SBOREN disabled; BORFS disabled; 
+    BORCON = 0x0;
+    // TUN 0x0; 
+    OSCTUNE = 0x0;
 }
+/**
+ End of File
+*/

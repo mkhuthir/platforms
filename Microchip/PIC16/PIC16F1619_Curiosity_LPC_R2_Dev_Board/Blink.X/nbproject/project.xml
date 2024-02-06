@@ -4,12 +4,8 @@
     <configuration>
         <data xmlns="http://www.netbeans.org/ns/make-project/1">
             <name>Blink</name>
-            <creation-uuid>e2596c24-466d-4da8-b5f1-96d7e9f48a38</creation-uuid>
+            <creation-uuid>71e2e9c1-068e-4cd6-813a-0602bd419a0d</creation-uuid>
             <make-project-type>0</make-project-type>
-            <c-extensions>c</c-extensions>
-            <cpp-extensions/>
-            <header-extensions>h</header-extensions>
-            <asminc-extensions/>
             <sourceEncoding>ISO-8859-1</sourceEncoding>
             <make-dep-projects/>
             <sourceRootList/>
