@@ -1,0 +1,3 @@
+https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-:MCUXPRESSO
+https://github.com/nxp-mcuxpresso/vscode-for-mcux/wiki/Dependency-Installation
+https://github.com/nxp-mcuxpresso/mcux-sdk

@@ -1,0 +1,5 @@
+https://www.microchip.com/en-us/development-tool/atxmegab1-xpld
+https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-8330-8-and-16-bit-AVR-Microcontroller-XMEGA-B-ATxmega64B1-ATxmega128B1_Datasheet.pdf
+https://ww1.microchip.com/downloads/en/Appnotes/doc8439.pdf
+https://www.microchip.com/en-us/application-notes/an8449
+

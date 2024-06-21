@@ -1,0 +1,5 @@
+--- UF2 File Header Info ---
+Family ID is NRF52840, hex value is 0xada52840
+Target Address is 0x00001000
+All block flag values consistent, 0x2000
+----------------------------

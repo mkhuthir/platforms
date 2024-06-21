@@ -1,0 +1,7 @@
+https://www.st.com/resource/en/datasheet/stm32f103c8.pdf
+https://github.com/GMMan/st-link-hack/blob/master/upgrade/upgrade.md
+https://www.st.com/en/development-tools/stsw-link007.html
+https://github.com/GMMan/st-link-hack/tree/master
+https://github.com/Krakenw/Stlink-Bootloaders
+https://www.eevblog.com/forum/microcontrollers/original-st-link-v2-firmware/
+http://nic.vajn.icu/PDF/STMicro/STLink/

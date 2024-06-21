@@ -1,0 +1,44 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/.pio/build/STC89C52RC/firmware.hex",
+            "projectEnvName": "STC89C52RC",
+            "toolchainBinDir": "/home/mkhuthir/.platformio/packages/toolchain-sdcc/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/.pio/build/STC89C52RC/firmware.hex",
+            "projectEnvName": "STC89C52RC",
+            "toolchainBinDir": "/home/mkhuthir/.platformio/packages/toolchain-sdcc/bin",
+            "internalConsoleOptions": "openOnSessionStart"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/.pio/build/STC89C52RC/firmware.hex",
+            "projectEnvName": "STC89C52RC",
+            "toolchainBinDir": "/home/mkhuthir/.platformio/packages/toolchain-sdcc/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "loadMode": "manual"
+        }
+    ]
+}

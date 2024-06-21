@@ -1,0 +1,2 @@
+https://www.mikroe.com/clicker-kinetis
+https://www.nxp.com/design/design-center/software/development-software/mcuxpresso-software-and-tools-/mcuxpresso-integrated-development-environment-ide:MCUXpresso-IDE?tid=vanMCUXPRESSO/IDE#design-resources

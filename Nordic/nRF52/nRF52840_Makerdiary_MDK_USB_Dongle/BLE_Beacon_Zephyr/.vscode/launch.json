@@ -1,0 +1,47 @@
+// AUTOMATICALLY GENERATED FILE. PLEASE DO NOT MODIFY IT MANUALLY
+//
+// PIO Unified Debugger
+//
+// Documentation: https://docs.platformio.org/page/plus/debugging.html
+// Configuration: https://docs.platformio.org/page/projectconf/section_env_debug.html
+
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug",
+            "executable": "/home/mkhuthir/ws/Nordic/nRF52840_Makerdiary_MDK_USB_Dongle/BLE_Beacon_Zephyr/.pio/build/nrf52840_mdk/firmware.elf",
+            "projectEnvName": "nrf52840_mdk",
+            "toolchainBinDir": "/home/mkhuthir/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/mkhuthir/.platformio/platforms/nordicnrf52/misc/svd/nrf52840.svd",
+            "preLaunchTask": {
+                "type": "PlatformIO",
+                "task": "Pre-Debug"
+            }
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (skip Pre-Debug)",
+            "executable": "/home/mkhuthir/ws/Nordic/nRF52840_Makerdiary_MDK_USB_Dongle/BLE_Beacon_Zephyr/.pio/build/nrf52840_mdk/firmware.elf",
+            "projectEnvName": "nrf52840_mdk",
+            "toolchainBinDir": "/home/mkhuthir/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/mkhuthir/.platformio/platforms/nordicnrf52/misc/svd/nrf52840.svd"
+        },
+        {
+            "type": "platformio-debug",
+            "request": "launch",
+            "name": "PIO Debug (without uploading)",
+            "executable": "/home/mkhuthir/ws/Nordic/nRF52840_Makerdiary_MDK_USB_Dongle/BLE_Beacon_Zephyr/.pio/build/nrf52840_mdk/firmware.elf",
+            "projectEnvName": "nrf52840_mdk",
+            "toolchainBinDir": "/home/mkhuthir/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin",
+            "internalConsoleOptions": "openOnSessionStart",
+            "svdPath": "/home/mkhuthir/.platformio/platforms/nordicnrf52/misc/svd/nrf52840.svd",
+            "loadMode": "manual"
+        }
+    ]
+}

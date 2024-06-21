@@ -1,0 +1,3 @@
+https://www.microchip.com/en-us/development-tool/atmega1284p-xpld
+https://www.microchip.com/en-us/application-notes/an8374.html
+https://www.microchip.com/en-us/application-notes/an8377.html

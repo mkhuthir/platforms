@@ -1,0 +1,5 @@
+https://www.microchip.com/en-us/development-tool/dm164137
+https://ww1.microchip.com/downloads/en/DeviceDoc/Curiosity_LPC_Schematics_rev2.pdf
+https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/UserGuides/Curiosity-Low-Pin-Count-Development-Board-Users-Guide-40001804D.pdf
+https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/CodeExamples/CuriosityDemoCode.zip
+https://ww1.microchip.com/downloads/en/DeviceDoc/40001806.pdf

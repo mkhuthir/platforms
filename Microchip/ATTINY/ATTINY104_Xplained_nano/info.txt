@@ -1,0 +1,7 @@
+https://www.microchip.com/en-us/product/ATtiny104
+https://www.microchip.com/en-us/development-tool/ATTINY104-XNANO
+https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42091-Atmel-Xplained-Pro-Hardware-Development-Kit_User%20Guide.pdf
+https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/UserGuides/40002160A.pdf
+https://ww1.microchip.com/downloads/en/DeviceDoc/ATtiny104-Xplained-Nano_Design-Documentation.zip
+https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42505-8-bit-AVR-Microcontrollers-ATtiny102-ATtiny104_Summary.pdf
+https://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42505-8-bit-AVR-Microcontrollers-ATtiny102-ATtiny104_Datasheet.pdf

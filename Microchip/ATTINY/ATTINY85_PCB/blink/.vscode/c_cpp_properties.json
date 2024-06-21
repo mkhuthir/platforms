@@ -1,0 +1,40 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/mkhuthir/ws/platforms/AVR/attiny85/blink/include",
+                "/home/mkhuthir/ws/platforms/AVR/attiny85/blink/src",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/mkhuthir/ws/platforms/AVR/attiny85/blink/include",
+                    "/home/mkhuthir/ws/platforms/AVR/attiny85/blink/src",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=8000000L",
+                "PLATFORMIO=60111",
+                "ARDUINO_AVR_ATTINYX5",
+                "__AVR_ATtiny85__",
+                ""
+            ],
+            "cStandard": "gnu11",
+            "cppStandard": "gnu++11",
+            "compilerPath": "/home/mkhuthir/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
+            "compilerArgs": [
+                "-mmcu=attiny85",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

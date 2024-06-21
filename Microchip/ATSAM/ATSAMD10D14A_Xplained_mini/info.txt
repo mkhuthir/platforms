@@ -1,0 +1,5 @@
+https://www.microchip.com/en-us/development-tool/ATSAMD10-Xmini
+https://mplab-discover.microchip.com/v2/category/com.microchip.code.examples/com.microchip.ide.project?dsl=ATSAMD10D14A
+https://www.microchip.com/en-us/tools-resources/configure/mplab-harmony
+https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/UserGuides/Atmel-42387-ATSAMD10-Xplain-Mini_User-Guide.pdf
+https://ww1.microchip.com/downloads/en/DeviceDoc/SAM-D10-Xplain-Mini_Design-Documentation.zip

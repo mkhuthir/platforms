@@ -1,0 +1,5 @@
+https://www.microchip.com/en-us/development-tool/dm240004
+https://ww1.microchip.com/downloads/en/DeviceDoc/50002534a.pdf
+https://ww1.microchip.com/downloads/en/DeviceDoc/pic24f_curiosity_click_demos.zip
+https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/SoftwareLibraries/Firmware/pic24f_curiosity_demo.zip
+https://ww1.microchip.com/downloads/en/DeviceDoc/40001806.pdf

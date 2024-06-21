@@ -1,0 +1,76 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/mkhuthir/ws/Nordic/nRF52840_Makerdiary_MDK_USB_Dongle/BLE_Beacon_Zephyr/include",
+                "/home/mkhuthir/ws/Nordic/nRF52840_Makerdiary_MDK_USB_Dongle/BLE_Beacon_Zephyr/src",
+                "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/include",
+                "/home/mkhuthir/ws/Nordic/nRF52840_Makerdiary_MDK_USB_Dongle/BLE_Beacon_Zephyr/.pio/build/nrf52840_mdk/zephyr/include/generated",
+                "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/soc/arm/nordic_nrf/nrf52",
+                "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/subsys/bluetooth",
+                "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/cmsis/CMSIS/Core/Include",
+                "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/nordic/nrfx",
+                "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/nordic/nrfx/drivers/include",
+                "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/nordic/nrfx/mdk",
+                "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/modules/hal_nordic/nrfx",
+                "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/crypto/tinycrypt/lib/include",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/mkhuthir/ws/Nordic/nRF52840_Makerdiary_MDK_USB_Dongle/BLE_Beacon_Zephyr/include",
+                    "/home/mkhuthir/ws/Nordic/nRF52840_Makerdiary_MDK_USB_Dongle/BLE_Beacon_Zephyr/src",
+                    "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/include",
+                    "/home/mkhuthir/ws/Nordic/nRF52840_Makerdiary_MDK_USB_Dongle/BLE_Beacon_Zephyr/.pio/build/nrf52840_mdk/zephyr/include/generated",
+                    "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/soc/arm/nordic_nrf/nrf52",
+                    "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/subsys/bluetooth",
+                    "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/cmsis/CMSIS/Core/Include",
+                    "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/nordic/nrfx",
+                    "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/nordic/nrfx/drivers/include",
+                    "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/hal/nordic/nrfx/mdk",
+                    "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/modules/hal_nordic/nrfx",
+                    "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/_pio/modules/crypto/tinycrypt/lib/include",
+                    ""
+                ]
+            },
+            "defines": [
+                "PLATFORMIO=60111",
+                "BUILD_VERSION=zephyr-v20701",
+                "KERNEL",
+                "NRF52840_XXAA",
+                "_FORTIFY_SOURCE=2",
+                "__PROGRAM_START",
+                "__ZEPHYR__=1",
+                ""
+            ],
+            "cStandard": "c99",
+            "forcedInclude": [
+                "/home/mkhuthir/ws/Nordic/nRF52840_Makerdiary_MDK_USB_Dongle/BLE_Beacon_Zephyr/.pio/build/nrf52840_mdk/zephyr/include/generated/autoconf.h",
+                "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/include/toolchain/zephyr_stdint.h",
+                ""
+            ],
+            "compilerPath": "/home/mkhuthir/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "-mcpu=cortex-m4",
+                "-mthumb",
+                "-mabi=aapcs",
+                "-mfp16-format=ieee",
+                "-isystem",
+                "/home/mkhuthir/.platformio/packages/framework-zephyr@2.20701.220422/lib/libc/minimal/include",
+                "-isystem",
+                "/home/mkhuthir/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include",
+                "-isystem",
+                "/home/mkhuthir/.platformio/packages/toolchain-gccarmnoneeabi@1.80201.181220/bin/../lib/gcc/arm-none-eabi/8.2.1/include-fixed",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

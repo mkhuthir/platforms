@@ -1,0 +1,7 @@
+esptool.py v2.8
+Found 3 serial ports
+Serial port /dev/ttyS4
+Connecting........_____....._____....._____....._____....._____....._____....._____
+/dev/ttyS4 failed to connect: Failed to connect to Espressif device: Timed out waiting for packet header
+Serial port /dev/ttyS0
+Connecting........_____....._____....._____..

@@ -1,0 +1,5 @@
+https://www.microchip.com/en-us/development-tool/dm320101
+https://ww1.microchip.com/downloads/en/DeviceDoc/pic32mm_curiosity_click_demos.zip
+https://ww1.microchip.com/downloads/en/DeviceDoc/pic32mm_curiosity_out_of_box_demo.zip
+https://ww1.microchip.com/downloads/en/DeviceDoc/50002555a%20-%20PIC32MM%20Curiosity%20User%20Guide.pdf
+https://ww1.microchip.com/downloads/en/DeviceDoc/00002191a.pdf

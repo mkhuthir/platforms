@@ -1,0 +1,6 @@
+https://www.microchip.com/en-us/development-tool/dm164136
+https://ww1.microchip.com/downloads/en/DeviceDoc/Curiosity-High-Pin-Count-Dev-Board-User-Guide-40001856A.pdf
+https://ww1.microchip.com/downloads/en/DeviceDoc/Curiosity_HPC_Schematics_rev1.pdf
+https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/CodeExamples/CuriosityHPCDemoCode.zip
+https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/UserGuides/Curiosity-High-Pin-Count-Development-Board-User-Guide-40001856C.pdf
+https://medium.com/electronza/review-curiosity-hpc-development-board-477561bfe33f

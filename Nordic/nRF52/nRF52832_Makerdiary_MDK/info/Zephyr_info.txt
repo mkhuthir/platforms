@@ -1,0 +1,25 @@
+Zephyr Project:
+
+https://docs.zephyrproject.org/latest/develop/getting_started/index.html
+https://github.com/zephyrproject-rtos
+
+source ~/zephyrproject/.venv/bin/activate
+west init ~/zephyrproject
+cd ~/zephyrproject
+west update
+west zephyr-export
+cd ~/zephyrproject/zephyr
+west build -p always -b nrf52840_mdk_usb_dongle samples/basic/blinky
+uf2conv build/zephyr/zephyr.hex -o build/zephyr/zephyr.UF2
+
+
+
+when finished:
+deactivate
+
+---------------------------------------------
+
+west --help
+west boards
+west list
+west flash # using nrfjprog

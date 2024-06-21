@@ -1,0 +1,3 @@
+ESP8285 ESP-01M IR Transceiver Wifi Wireless Module Remote Control Switch
+https://www.amazon.ae/Infrared-Transceiver-Wireless-Development-Gaodpz/dp/B088R1N6TK
+https://templates.blakadder.com/ESP_IR_TR.html

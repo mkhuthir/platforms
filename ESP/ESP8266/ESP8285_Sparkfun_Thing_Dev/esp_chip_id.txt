@@ -1,0 +1,12 @@
+esptool.py v2.8
+Found 3 serial ports
+Serial port /dev/ttyUSB0
+Connecting....
+Detecting chip type... ESP8266
+Chip is ESP8266EX
+Features: WiFi
+Crystal is 26MHz
+MAC: 5c:cf:7f:8b:1d:92
+Enabling default SPI flash mode...
+Chip ID: 0x008b1d92
+Hard resetting via RTS pin...

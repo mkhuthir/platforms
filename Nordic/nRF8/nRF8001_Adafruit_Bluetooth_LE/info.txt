@@ -1,0 +1,3 @@
+https://www.adafruit.com/product/1697
+https://learn.adafruit.com/getting-started-with-the-nrf8001-bluefruit-le-breakout
+https://docs.nordicsemi.com/

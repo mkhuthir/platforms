@@ -1,0 +1,2 @@
+https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/create_application.html
+https://docs.nordicsemi.com/

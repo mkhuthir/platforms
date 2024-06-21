@@ -1,0 +1,4 @@
+https://www.adafruit.com/product/2479
+https://github.com/adafruit/Adafruit_BluefruitLE_Firmware/tree/master?tab=readme-ov-file
+https://learn.adafruit.com/introducing-adafruit-ble-bluetooth-low-energy-friend/field-updates
+https://docs.nordicsemi.com/

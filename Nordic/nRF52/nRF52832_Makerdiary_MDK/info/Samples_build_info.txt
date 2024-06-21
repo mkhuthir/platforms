@@ -1,0 +1,23 @@
+
+
+https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/guides/ncs/setup/#install-zephyr-sdk
+
+---------------------------------------------
+NCS Samples:
+https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/guides/ncs/building/
+
+source ~/zephyrproject/.venv/bin/activate
+west init -m https://github.com/makerdiary/ncs-playground --mr main nrf_ws
+cd nrf_ws
+west update
+west zephyr-export
+
+cd ncs-playground
+west build -p always -b nrf52832_mdk samples/blinky
+cp build/zephyr/zephyr.uf2 /media/mkhuthir/UF2BOOT/.
+cp build/zephyr/zephyr.uf2 ~/ws/Nordic/nRF52840_Makerdiary_MDK_USB_Dongle/firmware/zephyr_ncs_samples_xxx.uf2
+
+
+when finished:
+deactivate
+---------------------------------------------

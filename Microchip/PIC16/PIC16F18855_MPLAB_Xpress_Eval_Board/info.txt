@@ -1,0 +1,3 @@
+https://ww1.microchip.com/downloads/en/DeviceDoc/30010190A.pdf
+https://www.microchip.com/en-us/development-tool/dm164140
+https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/UserGuides/Microchip+8bit+mcu+PIC+Xpress+Dev+Board+PIC16F18855+MPLAB+Xpress+Eval+Board+Users+Guide+50002479B.pdf

@@ -1,0 +1,4 @@
+https://wiki.makerdiary.com/nrf52832-mdk/
+https://www.nxp.com/docs/en/data-sheet/LPC11U3X.pdf
+https://developer.nordicsemi.com/nRF_Connect_SDK/doc/latest/nrf/create_application.html
+https://docs.nordicsemi.com/

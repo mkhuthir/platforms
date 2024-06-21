@@ -1,0 +1,6 @@
+
+https://devzone.nordicsemi.com/guides/short-range-guides/b/getting-started/posts/nrf52840-dongle-programming-tutorial
+https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/
+https://infocenter.nordicsemi.com/index.jsp?topic=/ug_nrf52840_dongle/UG/nrf52840_Dongle
+https://github.com/makerdiary/nrf52840-mdk-usb-dongle/tree/main
+https://github.com/NordicSemiconductor/nrf-device-setup-js/blob/master/bin/fw/graviton_bootloader_mbr_v1.0.1-[nRF5_SDK_15.0.1-1.alpha_f76d012].hex

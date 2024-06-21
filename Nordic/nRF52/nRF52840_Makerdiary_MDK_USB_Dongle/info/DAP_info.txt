@@ -1,0 +1,17 @@
+# DAPLink Firmware - see https://daplink.io
+Build ID: v0258-22-g06fa0a9c (gcc, local mods)
+Unique ID: 99523602000528407d42a04a8b673641000000006e052840
+HIC ID: 6e052840
+Auto Reset: 1
+Automation allowed: 1
+Overflow detection: 1
+Incompatible image detection: 0
+Page erasing: 0
+Daplink Mode: Interface
+Interface Version: 0259
+Git SHA: 06fa0a9ca76a0f4b2732b030ebbcba9e6e20a708
+Local Mods: 1
+USB Interfaces: MSD, CDC, HID, WebUSB
+Interface CRC: 0x2cdeccb9
+Remount count: 0
+URL: https://wiki.makerdiary.com/nrf52840-mdk-usb-dongle/

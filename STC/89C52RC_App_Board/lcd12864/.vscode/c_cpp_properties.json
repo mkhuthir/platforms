@@ -1,0 +1,45 @@
+//
+// !!! WARNING !!! AUTO-GENERATED FILE!
+// PLEASE DO NOT MODIFY IT AND USE "platformio.ini":
+// https://docs.platformio.org/page/projectconf/section_env_build.html#build-flags
+//
+{
+    "configurations": [
+        {
+            "name": "PlatformIO",
+            "includePath": [
+                "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/include",
+                "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/src",
+                "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/lib/lcd12864",
+                "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/lib/delay",
+                ""
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "path": [
+                    "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/include",
+                    "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/src",
+                    "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/lib/lcd12864",
+                    "/home/mkhuthir/ws/platforms/stc/89c52rc_devboard/lcd12864/lib/delay",
+                    ""
+                ]
+            },
+            "defines": [
+                "F_CPU=11059200L",
+                "HEAP_SIZE=128",
+                "PLATFORMIO=60111",
+                "STC89C5XRX",
+                "STC89C52RC",
+                "NAKED_ARCH_MCS51",
+                "NAKED_MCS51_STC89C5XRX",
+                ""
+            ],
+            "compilerPath": "/home/mkhuthir/.platformio/packages/toolchain-sdcc/bin/sdcc",
+            "compilerArgs": [
+                "-mmcs51",
+                ""
+            ]
+        }
+    ],
+    "version": 4
+}

@@ -1,0 +1,7 @@
+https://wiki.seeedstudio.com/XIAO_BLE/
+https://wiki.seeedstudio.com/XIAO-nRF52840-Zephyr-RTOS/
+https://docs.zephyrproject.org/latest/boards/arm/xiao_ble/doc/index.html
+https://docs.nordicsemi.com/
+https://files.seeedstudio.com/arduino/package_seeeduino_boards_index.json
+https://github.com/0hotpotman0/BLE_52840_Core/tree/main/bootloader/Seeed_XIAO_nRF52840_Sense
+

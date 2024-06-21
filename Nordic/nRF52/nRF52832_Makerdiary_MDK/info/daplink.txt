@@ -1,0 +1,14 @@
+# DAPLink Firmware - see https://mbed.com/daplink
+Unique ID: 10240000185159f400000000000000000000000097969902
+HIC ID: 97969902
+Auto Reset: 1
+Automation allowed: 1
+Overflow detection: 1
+Daplink Mode: Interface
+Interface Version: 0253
+Git SHA: b818774a27292087d69af99beb9756b2e869fc13
+Local Mods: 1
+USB Interfaces: MSD, CDC, HID, WebUSB
+Interface CRC: 0x6810b05f
+Remount count: 0
+URL: https://wiki.makerdiary.com/nrf52832-mdk/

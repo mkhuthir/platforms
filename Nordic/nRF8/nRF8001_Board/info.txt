@@ -1,0 +1,2 @@
+https://www.nordicsemi.com/Products/Development-tools/nrfgo-studio
+https://docs.nordicsemi.com/
