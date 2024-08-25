@@ -1,0 +1,3 @@
+sudo apt install openocd
+sudo apt install gdb-multiarch
+
