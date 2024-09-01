@@ -64,7 +64,7 @@ int main() {
         // if you are not using pico_cyw43_arch_poll, then WiFI driver and lwIP work
         // is done via interrupt in the background. This sleep is just an example of some (blocking)
         // work you might be doing.
-        sleep_ms(1000);
+        sleep_ms(500);
 #endif
     }
 
