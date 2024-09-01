@@ -1,0 +1,5 @@
+{
+    "clangd.arguments": [
+        "--compile-commands-dir=/home/mkhuthir/Downloads/platforms/Microchip/PIC16/PIC16F18446_Curiosity_Nano/Blink.X/_build_mplab/Blink/default/image_default.elf"
+    ]
+}
